@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
-importance: 1
+title: ChessCam - Real-World Chess AI System
+description: Built a computer vision system to recognize physical chessboards and recommend moves using trained ML models.
+image: assets/img/chess.png
+importance: 9
 category: work
 related_publications: true
 ---

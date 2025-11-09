@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Zero-Knowledge Proof for Image Authentication
+description: Developed a Zero-Knowledge Proof–based image authentication protocol at Carnegie Mellon’s OurCS conference to verify digital images without revealing content.
+image: assets/img/zk-snark.png
+year: 2024
 importance: 1
 category: work
 related_publications: true
@@ -18,7 +19,7 @@ To give your project a background in the portfolio page, just add the img tag to
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/12.jpg
+    img: /assets/img/zk-snark.png
     ---
 
 <div class="row">

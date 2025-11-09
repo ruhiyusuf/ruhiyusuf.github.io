@@ -1,9 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
+title: Enhancing Soliton Microcomb Stability with Custom Waveform Control
+description: Developed a Red Pitaya–based control system that generates tailored pump-laser detuning waveforms to reliably trigger and extend soliton steps in Si₃N₄ microresonators. This approach created longer, more stable pulse trains—improving optical frequency comb coherence and enabling integration into real-world photonic systems used in metrology, communications, and quantum sensing.
+image: assets/img/pitaya.png
+importance: 1
+year: 2025
 category: fun
 ---
 

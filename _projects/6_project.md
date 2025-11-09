@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
+title: Driver Camera and Retroreflective Vision (Jetson Nano)
+description: Developed a C++ and Gstreamer-based dual-camera vision system with retroreflective target detection for driver assistance.
+image: assets/img/nano.jpg
+importance: 8
 category: fun
 ---
 

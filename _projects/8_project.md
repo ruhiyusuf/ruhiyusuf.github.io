@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
-importance: 2
+title: Haptic Feedback Robotic Gripper
+description: Designed a pressure-sensitive robotic gripper capable of classifying soft and hard materials using force sensors and Arduino-based feedback control. Implemented signal acquisition and threshold calibration to dynamically adjust grip strength, improving precision handling in remote sensing and robotics applications.
+image: assets/img/arm.jpeg
+importance: 9
 category: work
 giscus_comments: true
 ---

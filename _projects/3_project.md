@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: "Balanced Homodyne Photodetector PCB"
+description: "Building a low-noise photodetector circuit for balanced homodyne detection in quantum communication and sensing setups, integrating analog design and optical testing."
+image: /assets/img/photodetector.png
+year: 2025
+importance: 1
 category: work
 ---
 

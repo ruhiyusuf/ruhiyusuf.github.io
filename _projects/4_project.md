@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: ESP32 Liquid Nitrogen Weight Monitoring System
+description: Built an ESP32-based IoT system for monitoring cryogen weight and logging data to Google Sheets via Apps Script.
+image: assets/img/dewar.png
 importance: 3
 category: fun
+year: 2025
 ---
 
 Every project has a beautiful feature showcase page.

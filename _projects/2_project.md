@@ -1,9 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Quantum MNIST Autoencoder
+description: Implemented a quantum circuit to encode and reconstruct MNIST digits using variational autoencoders for compression and fidelity analysis.
+image: assets/img/qae.png
 importance: 2
+year: 2025
 category: work
 giscus_comments: true
 ---

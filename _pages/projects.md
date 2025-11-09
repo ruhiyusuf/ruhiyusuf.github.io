@@ -2,64 +2,90 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A selection of research and engineering projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
 <div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
 
-{% else %}
+{% assign sorted_projects = site.projects | sort: "importance" | sort: "year" | reverse %}
+{% assign years = sorted_projects | map: "year" | uniq %}
 
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
+{% for year in years %}
+  <div class="year-section">
+    <h2 class="year">{{ year }}</h2>
+    {% assign projects_in_year = sorted_projects | where: "year", year %}
+    {% for project in projects_in_year %}
+      <div class="proj-item">
+        {% if project.image %}
+          <div class="proj-thumb">
+            <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+          </div>
+        {% endif %}
+        <div class="proj-info">
+          <h3 class="proj-title">{{ project.title }}</h3>
+          <p class="proj-desc">{{ project.description }}</p>
+        </div>
+      </div>
     {% endfor %}
   </div>
-  {% endif %}
-{% endif %}
+{% endfor %}
+
 </div>
+
+
+<style>
+.projects {
+  margin-top: 2rem;
+}
+.year-section {
+  position: relative;
+  margin-bottom: 3rem;
+}
+.year {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 2rem;
+  font-weight: 200;
+  color: #d0d0d0;
+  margin: 0;
+}
+.proj-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.proj-thumb img {
+  width: 160px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.proj-info {
+  max-width: 600px;
+}
+.proj-title {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+.proj-desc {
+  margin: 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+@media (max-width: 700px) {
+  .proj-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .year {
+    position: static;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+}
+</style>

@@ -48,7 +48,7 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 posts_in_search: true
 bib_search: true
@@ -192,6 +192,16 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _posts/
+  - _pages/repositories.md
+  - _pages/teaching.md
+  - _pages/profiles.md
+  - _pages/blog.md
+  - _pages/dropdown.md
+  - _pages/cv.md
+  - _pages/publications.md
+  - _includes/footer.liquid
+
 keep_files:
   - CNAME
   - .nojekyll
@@ -324,7 +334,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit:  # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
