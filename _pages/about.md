@@ -23,9 +23,25 @@ latest_posts:
   limit: 3
 ---
 
-I’m an EE undergrad at the University of Michigan, working in Prof. Zheshen Zhang’s Quantum Engineering Lab. I’m passionate about quantum photonics, hardware systems, and circuit design, and I love building, experimenting, and learning from people across different fields.
+I’m an Electrical Engineering and Computer Science student at the University of Michigan, working in Prof. Zheshen Zhang’s Quantum Engineering Lab. I’m really drawn to quantum photonics, circuit design, and hardware systems, and I love being in hands-on environments where physics, programming, and real engineering all come together.
+
+I’ve worked on projects in quantum sensing, photonics, VR, and machine learning, with a big focus on building things, experimenting, and actually making ideas work in the real world. I enjoy picking up new skills and perspectives through the projects I take on and the people I get to work with along the way.
+
+I’m currently exploring research opportunities and summer internships in quantum photonics, hardware systems, and circuit design, with a focus on hands-on device work.
 
 ---
+
+## Courses Taken
+
+- Electronic Circuits
+- Signals and Systems
+- Digital Logic Design
+- Programming & Data Structures
+- Electromagnetics
+- Principles of Optics
+- Multivariable Calculus
+- Differential Equations
+- Physics (Mechanics & E&M)
 
 ## Selected Projects
 
@@ -125,5 +141,63 @@ I’m an EE undergrad at the University of Michigan, working in Prof. Zheshen Zh
 .projects-link a:hover {
   color: #005fa3;
   text-decoration: underline;
+}
+</style>
+
+---
+
+## Fun Stuff
+
+<div class="fun-grid">
+  <!-- Hackathon 1 -->
+  <div class="fun-card">
+    <img src="assets/img/hackathon1.jpg" alt="Hackathon" class="fun-img">
+    <div class="fun-caption">Helping run student hackathons</div>
+  </div>
+
+  <!-- Hot Chips Volunteering -->
+  <div class="fun-card">
+    <img src="assets/img/hotchips.jpg" alt="Hot Chips" class="fun-img">
+    <div class="fun-caption">Volunteering at IEEE Hot Chips</div>
+  </div>
+
+  <!-- Quantum Hackathon -->
+  <div class="fun-card">
+    <img src="assets/img/qhack.jpg" alt="Quantum Hackathon" class="fun-img">
+    <div class="fun-caption">Organizing & mentoring at quantum hackathons</div>
+  </div>
+
+  <!-- Side Projects -->
+  <div class="fun-card">
+    <img src="assets/img/sideproject.jpg" alt="Side Projects" class="fun-img">
+    <div class="fun-caption">Random side projects + fun builds</div>
+  </div>
+</div>
+
+<style>
+.fun-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.fun-card {
+  text-align: center;
+}
+
+.fun-img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.fun-caption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #222;
 }
 </style>
