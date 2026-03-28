@@ -66,7 +66,7 @@ nav_order: 3
   flex-shrink: 0;
 }
 .proj-thumb-row img {
-  width: 110px;
+  width: 180px;
   height: auto;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
@@ -101,7 +101,7 @@ nav_order: 3
   }
   .proj-thumb-row img {
     width: 100%;
-    max-width: 150px;
+    max-width: 180px;
   }
 }
 </style>
