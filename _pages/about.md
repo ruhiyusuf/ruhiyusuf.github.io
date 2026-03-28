@@ -34,33 +34,34 @@ I am also interested in circuit and hardware design, with experience in VLSI and
 I have also built systems in computer vision, machine learning, and embedded hardware, though my current focus is on photonic and hardware-driven platforms.
 
 I am currently exploring research and internship opportunities in quantum photonics, hardware systems, and circuit design.
+
 ---
 
 ## Coursework
 
-#### Electrical Engineering & Circuits
+###### Electrical Engineering & Circuits
 
 - Digital Integrated Circuits
 - VLSI Design I (in progress)
 - Signals and Systems
 
-#### Photonics, Physics & Quantum Systems
+###### Photonics, Physics & Quantum Systems
 
 - Principles of Optics
 - Electromagnetism
 - Quantum Information Technology
 
-#### Mathematics
+###### Mathematics
 
 - Multivariable Calculus
 - Differential Equations
 - Linear Algebra
 
-#### Computer Science
+###### Computer Science
 
 - Programming and Data Structures
 
-#### Planned Coursework
+###### Planned Coursework
 
 - Classical Optics
 - Advanced Lasers & Optics Lab

@@ -21,6 +21,9 @@ nav_order: 3
         {% if project.image %}
           <div class="proj-thumb">
             <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+            {% if project.image2 %}
+              <img src="{{ project.image2 | relative_url }}" alt="{{ project.title }} second image" class="second-thumb">
+            {% endif %}
           </div>
         {% endif %}
         <div class="proj-info">
@@ -33,7 +36,6 @@ nav_order: 3
 {% endfor %}
 
 </div>
-
 
 <style>
 .projects {
@@ -55,27 +57,34 @@ nav_order: 3
 .proj-item {
   display: flex;
   align-items: flex-start;
-  gap: 1rem;
-  margin-bottom: 2rem;
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+.proj-thumb {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 }
 .proj-thumb img {
   width: 220px;
   height: auto;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  object-fit: cover;
 }
 .proj-info {
-  max-width: 600px;
+  max-width: 650px;
 }
 .proj-title {
-  margin: 0 0 0.3rem 0;
-  font-size: 1.05rem;
-  font-weight: 500;
+  margin: 0 0 0.35rem 0;
+  font-size: 1.15rem;
+  font-weight: 600;
 }
 .proj-desc {
   margin: 0;
   color: #555;
-  font-size: 0.95rem;
+  font-size: 0.98rem;
+  line-height: 1.5;
 }
 @media (max-width: 700px) {
   .proj-item {
@@ -86,6 +95,10 @@ nav_order: 3
     position: static;
     margin-bottom: 1rem;
     font-size: 1.5rem;
+  }
+  .proj-thumb img {
+    width: 100%;
+    max-width: 320px;
   }
 }
 </style>

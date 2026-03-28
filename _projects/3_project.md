@@ -1,8 +1,9 @@
 ---
 layout: page
 title: "Balanced Homodyne Photodetector PCB"
-description: "Designed and fabricated a low-noise balanced photodetector for homodyne detection using LTSpice and EasyEDA. Characterized noise performance, gain, and bandwidth, achieving performance comparable to commercial systems at significantly reduced cost."
-image: /assets/img/photodetector.png
+description: "Designed and fabricated a low-noise balanced photodetector for homodyne detection in quantum optics experiments, focusing on analog circuit design, PCB layout, and optical testing."
+image: /assets/img/photodetector_closeup.png
+image2: /assets/img/photodetector_setup.png
 year: 2025
 importance: 1
 category: research
