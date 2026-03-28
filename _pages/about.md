@@ -39,7 +39,7 @@ I am currently exploring research and internship opportunities in quantum photon
 
 ## Coursework
 
-###### Electrical Engineering & Circuits
+###### **Electrical Engineering & Circuits**
 
 - Digital Integrated Circuits
 - VLSI Design I (in progress)

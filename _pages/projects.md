@@ -19,10 +19,10 @@ nav_order: 3
     {% for project in projects_in_year %}
       <div class="proj-item">
         {% if project.image %}
-          <div class="proj-thumb">
+          <div class="proj-thumb-row">
             <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
             {% if project.image2 %}
-              <img src="{{ project.image2 | relative_url }}" alt="{{ project.title }} second image" class="second-thumb">
+              <img src="{{ project.image2 | relative_url }}" alt="{{ project.title }} second image">
             {% endif %}
           </div>
         {% endif %}
@@ -60,13 +60,13 @@ nav_order: 3
   gap: 1.25rem;
   margin-bottom: 2.5rem;
 }
-.proj-thumb {
+.proj-thumb-row {
   display: flex;
-  flex-direction: column;
   gap: 0.75rem;
+  flex-shrink: 0;
 }
-.proj-thumb img {
-  width: 220px;
+.proj-thumb-row img {
+  width: 110px;
   height: auto;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
@@ -96,9 +96,12 @@ nav_order: 3
     margin-bottom: 1rem;
     font-size: 1.5rem;
   }
-  .proj-thumb img {
+  .proj-thumb-row {
+    flex-wrap: wrap;
+  }
+  .proj-thumb-row img {
     width: 100%;
-    max-width: 320px;
+    max-width: 150px;
   }
 }
 </style>
