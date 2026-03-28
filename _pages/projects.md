@@ -59,7 +59,7 @@ nav_order: 3
   margin-bottom: 2rem;
 }
 .proj-thumb img {
-  width: 160px;
+  width: 220px;
   height: auto;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
