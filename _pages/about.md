@@ -31,7 +31,7 @@ I’m currently exploring research opportunities and summer internships in quant
 
 ---
 
-## Courses Taken
+## Coursework
 
 - Electronic Circuits
 - Signals and Systems
@@ -42,6 +42,37 @@ I’m currently exploring research opportunities and summer internships in quant
 - Multivariable Calculus
 - Differential Equations
 - Physics (Mechanics & E&M)
+
+Electrical Engineering & Circuits
+
+- Digital Integrated Circuits
+- VLSI Design I (in progress)
+- Signals and Systems
+
+Photonics, Physics & Quantum Systems
+
+- Principles of Optics
+- Electromagnetism
+- Quantum Information Technology
+
+Mathematics
+
+- Multivariable Calculus
+- Differential Equations
+- Linear Algebra
+
+Computer Science
+
+- Programming and Data Structures
+
+Planned Coursework
+
+- Classical Optics
+- Advanced Lasers & Optics Lab
+- Optical Waves in Crystals
+- VLSI Design II
+- VLSI Tapeout Lab
+- Micro/Nano Device Fabrication and Characterization
 
 ## Selected Projects
 
@@ -157,7 +188,7 @@ I’m currently exploring research opportunities and summer internships in quant
 
   <!-- Hot Chips Volunteering -->
   <div class="fun-card">
-    <img src="assets/img/hotchips.jpg" alt="Hot Chips" class="fun-img">
+    <img src="assets/img/hc.jpeg" alt="Hot Chips" class="fun-img">
     <div class="fun-caption">Volunteering at IEEE Hot Chips</div>
   </div>
 
