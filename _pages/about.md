@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>EE Undergrad @ UMich </a>. Hardware Systems • PCB/FPGA Design • Quantum Photonics Devices
+subtitle: <a href='#'>EE Undergrad @ UMich </a>. Integrated Photonics · Experimental Optical Systems & Device Characterization
 
 profile:
   align: right
@@ -23,49 +23,44 @@ latest_posts:
   limit: 3
 ---
 
-I’m an Electrical Engineering and Computer Science student at the University of Michigan, working in Prof. Zheshen Zhang’s Quantum Engineering Lab. I’m really drawn to quantum photonics, circuit design, and hardware systems, and I love being in hands-on environments where physics, programming, and real engineering all come together.
+I am an Electrical Engineering and Computer Science student at the University of Michigan, working in Prof. Zheshen Zhang’s Quantum Engineering Lab. My work focuses on experimental integrated photonics, particularly the generation and stabilization of dissipative Kerr solitons in silicon nitride microring resonators.
 
-I’ve worked on projects in quantum sensing, photonics, VR, and machine learning, with a big focus on building things, experimenting, and actually making ideas work in the real world. I enjoy picking up new skills and perspectives through the projects I take on and the people I get to work with along the way.
+I work on post-fabrication characterization and control of photonic devices, including dispersion measurements, mode analysis, and soliton generation and tuning. I also develop FPGA-based waveform control and measurement pipelines to improve stability and repeatability in these systems.
 
-I’m currently exploring research opportunities and summer internships in quantum photonics, hardware systems, and circuit design, with a focus on hands-on device work.
+In parallel, I have worked on cryogenic experiments, designing vibration-isolated, thermally anchored mounting for devices in a dilution refrigerator and supporting data collection and system operation.
 
+I am also interested in circuit and hardware design, with experience in VLSI and transistor-level systems, and in how these approaches can better interface with photonics and quantum optical platforms.
+
+I have also built systems in computer vision, machine learning, and embedded hardware, though my current focus is on photonic and hardware-driven platforms.
+
+I am currently exploring research and internship opportunities in quantum photonics, hardware systems, and circuit design.
 ---
 
 ## Coursework
 
-- Electronic Circuits
-- Signals and Systems
-- Digital Logic Design
-- Programming & Data Structures
-- Electromagnetics
-- Principles of Optics
-- Multivariable Calculus
-- Differential Equations
-- Physics (Mechanics & E&M)
-
-Electrical Engineering & Circuits
+#### Electrical Engineering & Circuits
 
 - Digital Integrated Circuits
 - VLSI Design I (in progress)
 - Signals and Systems
 
-Photonics, Physics & Quantum Systems
+#### Photonics, Physics & Quantum Systems
 
 - Principles of Optics
 - Electromagnetism
 - Quantum Information Technology
 
-Mathematics
+#### Mathematics
 
 - Multivariable Calculus
 - Differential Equations
 - Linear Algebra
 
-Computer Science
+#### Computer Science
 
 - Programming and Data Structures
 
-Planned Coursework
+#### Planned Coursework
 
 - Classical Optics
 - Advanced Lasers & Optics Lab
@@ -177,14 +172,14 @@ Planned Coursework
 
 ---
 
-## Fun Stuff
+## Other Stuff
 
 <div class="fun-grid">
-  <!-- Hackathon 1 -->
+  <!-- Hackathon 1
   <div class="fun-card">
     <img src="assets/img/hackathon1.jpg" alt="Hackathon" class="fun-img">
     <div class="fun-caption">Helping run student hackathons</div>
-  </div>
+  </div> -->
 
   <!-- Hot Chips Volunteering -->
   <div class="fun-card">
@@ -194,15 +189,15 @@ Planned Coursework
 
   <!-- Quantum Hackathon -->
   <div class="fun-card">
-    <img src="assets/img/qhack.jpg" alt="Quantum Hackathon" class="fun-img">
+    <img src="assets/img/qhack.jpeg" alt="Quantum Hackathon" class="fun-img">
     <div class="fun-caption">Organizing & mentoring at quantum hackathons</div>
   </div>
 
-  <!-- Side Projects -->
+  <!-- Side Projects
   <div class="fun-card">
     <img src="assets/img/sideproject.jpg" alt="Side Projects" class="fun-img">
     <div class="fun-caption">Random side projects + fun builds</div>
-  </div>
+  </div> -->
 </div>
 
 <style>
