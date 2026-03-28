@@ -66,7 +66,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-balanced-homodyne-photodetector-pcb",
           title: 'Balanced Homodyne Photodetector PCB',
-          description: "Building a low-noise photodetector circuit for balanced homodyne detection in quantum communication and sensing setups, integrating analog design and optical testing.",
+          description: "Designed and fabricated a low-noise balanced photodetector for homodyne detection using LTSpice and EasyEDA. Characterized noise performance, gain, and bandwidth, achieving performance comparable to commercial systems at significantly reduced cost.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-esp32-liquid-nitrogen-weight-monitoring-system",
