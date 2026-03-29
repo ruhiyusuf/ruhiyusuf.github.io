@@ -116,7 +116,7 @@ nav_order: 3
     max-width: 180px;
   }
   .proj-thumb-row.featured img {
-    max-width: 240px;
+    max-width: 360px;
   }
 }
 </style>
