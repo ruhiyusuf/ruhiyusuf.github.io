@@ -45,23 +45,23 @@ I am currently exploring research and internship opportunities in quantum photon
 - VLSI Design I (in progress)
 - Signals and Systems
 
-###### Photonics, Physics & Quantum Systems
+###### **Photonics, Physics & Quantum Systems**
 
 - Principles of Optics
 - Electromagnetism
 - Quantum Information Technology
 
-###### Mathematics
+###### **Mathematics**
 
 - Multivariable Calculus
 - Differential Equations
 - Linear Algebra
 
-###### Computer Science
+###### **Computer Science**
 
 - Programming and Data Structures
 
-###### Planned Coursework
+###### **Planned Coursework**
 
 - Classical Optics
 - Advanced Lasers & Optics Lab
