@@ -17,7 +17,7 @@ nav_order: 3
     <h2 class="year">{{ year }}</h2>
     {% assign projects_in_year = sorted_projects | where: "year", year %}
     {% for project in projects_in_year %}
-      <div class="proj-item">
+      <div class="proj-item {% if project.img_side == 'right' %}image-right{% elsif project.img_side == 'left' %}image-left{% endif %}">
         {% if project.image %}
           <div class="proj-thumb-row">
             <img
@@ -68,6 +68,12 @@ nav_order: 3
   gap: 1.25rem;
   margin-bottom: 2.5rem;
 }
+.proj-item.image-right {
+  flex-direction: row-reverse;
+}
+.proj-item.image-left {
+  flex-direction: row;
+}
 .proj-thumb-row {
   display: flex;
   gap: 0.75rem;
@@ -81,6 +87,7 @@ nav_order: 3
 }
 .proj-info {
   max-width: 650px;
+  flex: 1;
 }
 .proj-title {
   margin: 0 0 0.35rem 0;
@@ -94,7 +101,9 @@ nav_order: 3
   line-height: 1.5;
 }
 @media (max-width: 700px) {
-  .proj-item {
+  .proj-item,
+  .proj-item.image-right,
+  .proj-item.image-left {
     flex-direction: column;
     align-items: flex-start;
   }
