@@ -17,12 +17,20 @@ nav_order: 3
     <h2 class="year">{{ year }}</h2>
     {% assign projects_in_year = sorted_projects | where: "year", year %}
     {% for project in projects_in_year %}
-      <div class="proj-item {% if project.featured %}featured-project{% endif %}">
+      <div class="proj-item">
         {% if project.image %}
-          <div class="proj-thumb-row {% if project.featured %}featured{% endif %}">
-            <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+          <div class="proj-thumb-row">
+            <img
+              src="{{ project.image | relative_url }}"
+              alt="{{ project.title }}"
+              style="width: {{ project.img_size | default: 180 }}px;"
+            >
             {% if project.image2 %}
-              <img src="{{ project.image2 | relative_url }}" alt="{{ project.title }} second image">
+              <img
+                src="{{ project.image2 | relative_url }}"
+                alt="{{ project.title }} second image"
+                style="width: {{ project.img_size | default: 180 }}px;"
+              >
             {% endif %}
           </div>
         {% endif %}
@@ -66,18 +74,11 @@ nav_order: 3
   flex-shrink: 0;
 }
 .proj-thumb-row img {
-  width: 180px;
   height: auto;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   object-fit: cover;
 }
-
-/* Make featured projects larger */
-.proj-thumb-row.featured img {
-  width: 260px;
-}
-
 .proj-info {
   max-width: 650px;
 }
@@ -92,12 +93,6 @@ nav_order: 3
   font-size: 0.98rem;
   line-height: 1.5;
 }
-
-/* Give featured project a bit more breathing room */
-.featured-project {
-  margin-bottom: 3rem;
-}
-
 @media (max-width: 700px) {
   .proj-item {
     flex-direction: column;
@@ -112,11 +107,8 @@ nav_order: 3
     flex-wrap: wrap;
   }
   .proj-thumb-row img {
-    width: 100%;
-    max-width: 180px;
-  }
-  .proj-thumb-row.featured img {
-    max-width: 360px;
+    width: 100% !important;
+    max-width: 220px;
   }
 }
 </style>
