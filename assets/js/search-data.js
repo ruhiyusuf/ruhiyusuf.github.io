@@ -69,9 +69,9 @@ ninja.data = [{
           description: "Designed and fabricated a low-noise balanced photodetector for homodyne detection in quantum optics experiments, focusing on analog circuit design, PCB layout, and optical testing.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-esp32-liquid-nitrogen-weight-monitoring-system",
-          title: 'ESP32 Liquid Nitrogen Weight Monitoring System',
-          description: "Built an ESP32-based IoT system for monitoring cryogen weight and logging data to Google Sheets via Apps Script.",
+            },},{id: "projects-liquid-nitrogen-monitoring-system-esp32",
+          title: 'Liquid Nitrogen Monitoring System (ESP32)',
+          description: "Developed an ESP32-based system to monitor liquid nitrogen levels using weight sensing. Implemented data logging and alert mechanisms to track cryogen usage and ensure reliable operation of lab systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-enhancing-soliton-microcomb-stability-with-custom-waveform-control",
