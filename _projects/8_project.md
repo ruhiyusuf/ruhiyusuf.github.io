@@ -7,6 +7,8 @@ importance: 11
 category: embedded
 giscus_comments: true
 year: 2023
+img_side: right
+img_size: 360
 ---
 
 Every project has a beautiful feature showcase page.

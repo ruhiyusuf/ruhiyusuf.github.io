@@ -6,8 +6,8 @@ image: /assets/img/vna_gui.png
 importance: 4
 year: 2026
 category: research
-img_side: right
-img_size: 300
+img_side: left
+img_size: 360
 short: VNA
 tags: [Measurement, Cryogenics]
 ---

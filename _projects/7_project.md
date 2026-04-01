@@ -7,6 +7,8 @@ importance: 9
 category: software
 related_publications: true
 year: 2023
+img_side: right
+img_size: 360
 ---
 
 Every project has a beautiful feature showcase page.

@@ -7,4 +7,6 @@ image2: /assets/img/dewar.png
 year: 2025
 importance: 8
 category: embedded
+img_side: left
+img_size: 240
 ---

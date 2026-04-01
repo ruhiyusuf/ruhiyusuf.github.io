@@ -7,6 +7,8 @@ importance: 6
 year: 2025
 category: software
 giscus_comments: true
+img_side: left
+img_size: 360
 ---
 
 Every project has a beautiful feature showcase page.

@@ -6,6 +6,8 @@ image: assets/img/vr.png
 importance: 8
 category: embedded
 year: 2023
+img_side: left
+img_size: 360
 ---
 
 Every project has a beautiful feature showcase page.

@@ -7,6 +7,6 @@ image2: /assets/img/cryo_cad.png
 importance: 3
 year: 2026
 category: research
-img_side: left
+img_side: right
 img_size: 240
 ---

@@ -31,8 +31,8 @@ display_categories: [research, hardware, embedded, software]
       </div>
     {% endif %}
     <div class="proj-info">
+      <p class="proj-meta">{{ project.year }} · {{ project.category }}</p>
       <h3 class="proj-title">{{ project.title }}</h3>
-      <p class="proj-category">{{ project.category }}</p>
       <p class="proj-desc">{{ project.description }}</p>
     </div>
   </div>
@@ -82,7 +82,7 @@ display_categories: [research, hardware, embedded, software]
 .proj-item.image-left {
   flex-direction: row;
 }
-.proj-category {
+.proj-meta {
   margin: 0 0 0.35rem 0;
   font-size: 0.72rem;
   font-weight: 500;
