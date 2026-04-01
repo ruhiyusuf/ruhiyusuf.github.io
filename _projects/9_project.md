@@ -3,8 +3,9 @@ layout: page
 title: Virtual Reality Biofeedback for Stress and Cardiac Response
 description: Integrated real-time heart-rate sensing with Unity and designed custom VR environments visualizing live biofeedback for stress and cardiac research at Santa Clara University’s BioInnovation Lab collab.
 image: assets/img/vr.png
-importance: 4
-category: fun
+importance: 8
+category: embedded
+year: 2023
 ---
 
 Every project has a beautiful feature showcase page.

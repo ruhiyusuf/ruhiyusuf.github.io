@@ -5,6 +5,6 @@ description: "Developed an ESP32-based system to monitor liquid nitrogen levels 
 image: /assets/img/dewar_setup.png
 image2: /assets/img/dewar.png
 year: 2025
-importance: 2
-category: systems
+importance: 8
+category: embedded
 ---

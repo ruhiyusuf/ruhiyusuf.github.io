@@ -3,9 +3,10 @@ layout: page
 title: Haptic Feedback Robotic Gripper
 description: Designed a pressure-sensitive robotic gripper capable of classifying soft and hard materials using force sensors and Arduino-based feedback control. Implemented signal acquisition and threshold calibration to dynamically adjust grip strength, improving precision handling in remote sensing and robotics applications.
 image: assets/img/arm.jpeg
-importance: 9
-category: work
+importance: 11
+category: embedded
 giscus_comments: true
+year: 2023
 ---
 
 Every project has a beautiful feature showcase page.

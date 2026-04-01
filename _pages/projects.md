@@ -5,6 +5,7 @@ permalink: /projects/
 description: A selection of research and engineering projects.
 nav: true
 nav_order: 3
+display_categories: [research, hardware, embedded, software]
 ---
 
 <div class="projects">

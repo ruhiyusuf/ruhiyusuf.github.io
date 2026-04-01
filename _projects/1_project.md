@@ -6,7 +6,7 @@ image: /assets/img/zkp_overview.png
 image2: /assets/img/zkp_poster.png
 img_size: 170
 img_side: left
-importance: 5
+importance: 7
 year: 2024
-category: research
+category: software
 ---

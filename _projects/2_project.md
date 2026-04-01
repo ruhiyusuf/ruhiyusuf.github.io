@@ -3,9 +3,9 @@ layout: page
 title: Quantum MNIST Autoencoder
 description: Implemented a variational quantum autoencoder to encode and reconstruct MNIST digits, exploring compression and fidelity in quantum machine learning.
 image: assets/img/qae.png
-importance: 2
+importance: 6
 year: 2025
-category: work
+category: software
 giscus_comments: true
 ---
 

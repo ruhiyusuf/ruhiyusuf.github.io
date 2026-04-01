@@ -23,17 +23,11 @@ latest_posts:
   limit: 3
 ---
 
-I am an Electrical Engineering and Computer Science student at the University of Michigan, working in Prof. Zheshen Zhang’s Quantum Engineering Lab. My work focuses on experimental integrated photonics, particularly the generation and stabilization of dissipative Kerr solitons in silicon nitride microring resonators.
+As an undergraduate researcher in Prof. Zheshen Zhang's Quantum Engineering Lab, I work on experimental integrated photonics, specifically the generation and stabilization of dissipative Kerr solitons in silicon nitride microring resonators.
 
-I work on post-fabrication characterization and control of photonic devices, including dispersion measurements, mode analysis, and soliton generation and tuning. I also develop FPGA-based waveform control and measurement pipelines to improve stability and repeatability in these systems.
+My work spans FPGA-based waveform control for soliton generation, dispersion measurement and mode analysis, custom PCB design for balanced homodyne detection, and mechanical design for cryogenic mounting in a Bluefors dilution refrigerator. This work has contributed to a co-authored publication in Optics Letters and two papers accepted to CLEO 2025.
 
-In parallel, I have worked on cryogenic experiments, designing vibration-isolated, thermally anchored mounting for devices in a dilution refrigerator and supporting data collection and system operation.
-
-I am also interested in circuit and hardware design, with experience in VLSI and transistor-level systems, and in how these approaches can better interface with photonics and quantum optical platforms.
-
-I have also built systems in computer vision, machine learning, and embedded hardware, though my current focus is on photonic and hardware-driven platforms.
-
-I am currently exploring research and internship opportunities in quantum photonics, hardware systems, and circuit design.
+I am broadly interested in how photonics, quantum optics, and hardware systems intersect. I plan to pursue a PhD in experimental quantum photonics.
 
 ---
 
