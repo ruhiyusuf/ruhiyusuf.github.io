@@ -10,37 +10,31 @@ display_categories: [research, hardware, embedded, software]
 
 <div class="projects">
 
-{% assign sorted_projects = site.projects | sort: "importance" | sort: "year" | reverse %}
-{% assign years = sorted_projects | map: "year" | uniq %}
+{% assign sorted_projects = site.projects | sort: "importance" %}
 
-{% for year in years %}
-  <div class="year-section">
-    <h2 class="year">{{ year }}</h2>
-    {% assign projects_in_year = sorted_projects | where: "year", year %}
-    {% for project in projects_in_year %}
-      <div class="proj-item {% if project.img_side == 'right' %}image-right{% elsif project.img_side == 'left' %}image-left{% endif %}">
-        {% if project.image %}
-          <div class="proj-thumb-row">
-            <img
-              src="{{ project.image | relative_url }}"
-              alt="{{ project.title }}"
-              style="width: {{ project.img_size | default: 180 }}px;"
-            >
-            {% if project.image2 %}
-              <img
-                src="{{ project.image2 | relative_url }}"
-                alt="{{ project.title }} second image"
-                style="width: {{ project.img_size | default: 180 }}px;"
-              >
-            {% endif %}
-          </div>
+{% for project in sorted_projects %}
+  <div class="proj-item {% if project.img_side == 'right' %}image-right{% elsif project.img_side == 'left' %}image-left{% endif %}">
+    {% if project.image %}
+      <div class="proj-thumb-row">
+        <img
+          src="{{ project.image | relative_url }}"
+          alt="{{ project.title }}"
+          style="width: {{ project.img_size | default: 180 }}px;"
+        >
+        {% if project.image2 %}
+          <img
+            src="{{ project.image2 | relative_url }}"
+            alt="{{ project.title }} second image"
+            style="width: {{ project.img_size | default: 180 }}px;"
+          >
         {% endif %}
-        <div class="proj-info">
-          <h3 class="proj-title">{{ project.title }}</h3>
-          <p class="proj-desc">{{ project.description }}</p>
-        </div>
       </div>
-    {% endfor %}
+    {% endif %}
+    <div class="proj-info">
+      <h3 class="proj-title">{{ project.title }}</h3>
+      <p class="proj-category">{{ project.category }}</p>
+      <p class="proj-desc">{{ project.description }}</p>
+    </div>
   </div>
 {% endfor %}
 
@@ -88,6 +82,14 @@ display_categories: [research, hardware, embedded, software]
 .proj-item.image-left {
   flex-direction: row;
 }
+.proj-category {
+  margin: 0 0 0.35rem 0;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+}
 .proj-thumb-row {
   display: flex;
   gap: 0.75rem;
@@ -110,7 +112,7 @@ display_categories: [research, hardware, embedded, software]
 }
 .proj-desc {
   margin: 0;
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
   font-size: 0.98rem;
   line-height: 1.5;
 }

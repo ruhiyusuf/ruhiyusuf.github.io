@@ -7,7 +7,7 @@ importance: 4
 year: 2026
 category: research
 img_side: right
-img_size: 220
+img_size: 300
 short: VNA
 tags: [Measurement, Cryogenics]
 ---

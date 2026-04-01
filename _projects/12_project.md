@@ -7,7 +7,7 @@ importance: 1
 year: 2026
 category: research
 img_side: right
-img_size: 260
+img_size: 360
 short: PIC
 tags: [Photonics, Measurement]
 ---
