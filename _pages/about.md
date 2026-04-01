@@ -33,36 +33,76 @@ I am broadly interested in how photonics, quantum optics, and hardware systems i
 
 ## Coursework
 
-###### **Electrical Engineering & Circuits**
+<div class="course-grid">
+  <div class="course-col">
+    <p class="course-heading">Electrical Engineering</p>
+    <ul>
+      <li>Digital Integrated Circuits</li>
+      <li>VLSI Design I</li>
+      <li>Signals and Systems</li>
+    </ul>
+  </div>
+  <div class="course-col">
+    <p class="course-heading">Photonics & Quantum</p>
+    <ul>
+      <li>Principles of Optics</li>
+      <li>Electromagnetism</li>
+      <li>Quantum Information Technology</li>
+    </ul>
+  </div>
+  <div class="course-col">
+    <p class="course-heading">Math & CS</p>
+    <ul>
+      <li>Multivariable Calculus</li>
+      <li>Differential Equations</li>
+      <li>Linear Algebra</li>
+      <li>Programming & Data Structures</li>
+    </ul>
+  </div>
+  <div class="course-col">
+    <p class="course-heading">Planned</p>
+    <ul>
+      <li>Classical Optics</li>
+      <li>Advanced Lasers & Optics Lab</li>
+      <li>Optical Waves in Crystals</li>
+      <li>VLSI Design II</li>
+      <li>VLSI Tapeout Lab</li>
+      <li>Micro/Nano Fabrication</li>
+    </ul>
+  </div>
+</div>
 
-- Digital Integrated Circuits
-- VLSI Design I (in progress)
-- Signals and Systems
-
-###### **Photonics, Physics & Quantum Systems**
-
-- Principles of Optics
-- Electromagnetism
-- Quantum Information Technology
-
-###### **Mathematics**
-
-- Multivariable Calculus
-- Differential Equations
-- Linear Algebra
-
-###### **Computer Science**
-
-- Programming and Data Structures
-
-###### **Planned Coursework**
-
-- Classical Optics
-- Advanced Lasers & Optics Lab
-- Optical Waves in Crystals
-- VLSI Design II
-- VLSI Tapeout Lab
-- Micro/Nano Device Fabrication and Characterization
+<style>
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.course-heading {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  margin-bottom: 0.5rem;
+}
+.course-col ul {
+  padding-left: 1rem;
+  margin: 0;
+}
+.course-col li {
+  font-size: 0.88rem;
+  color: var(--global-text-color);
+  padding: 0.15rem 0;
+}
+@media (max-width: 600px) {
+  .course-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+</style>
 
 ## Selected Projects
 
