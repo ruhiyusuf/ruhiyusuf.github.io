@@ -8,5 +8,5 @@ importance: 7
 year: 2024
 category: software
 img_side: right
-img_size: 360
+img_size: 300
 ---

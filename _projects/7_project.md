@@ -8,7 +8,7 @@ category: software
 related_publications: true
 year: 2023
 img_side: right
-img_size: 180
+img_size: 200
 ---
 
 Every project has a beautiful feature showcase page.

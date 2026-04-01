@@ -25,7 +25,7 @@ latest_posts:
 
 As an undergraduate researcher in Prof. Zheshen Zhang's Quantum Engineering Lab, I work on experimental integrated photonics, specifically the generation and stabilization of dissipative Kerr solitons in silicon nitride microring resonators.
 
-My work spans FPGA-based waveform control for soliton generation, dispersion measurement and mode analysis, custom PCB design for balanced homodyne detection, and mechanical design for cryogenic mounting in a Bluefors dilution refrigerator. This work has contributed to a co-authored publication in Optics Letters and two papers accepted to <a href='https://cleoconference.org/'>CLEO2026</a>.
+My work spans FPGA-based waveform control for soliton generation, dispersion measurement and mode analysis, custom PCB design for balanced homodyne detection, and mechanical design for cryogenic mounting in a Bluefors dilution refrigerator. This work has contributed to a co-authored publication in Optics Letters and two papers accepted to <a href='https://cleoconference.org/'>CLEO 2026</a>.
 
 I am broadly interested in how photonics, quantum optics, and hardware systems intersect. I plan to pursue a PhD in experimental quantum photonics.
 
@@ -81,7 +81,7 @@ I am broadly interested in how photonics, quantum optics, and hardware systems i
   margin-bottom: 2rem;
 }
 .course-heading {
-  font-size: 0.72rem;
+  font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -109,7 +109,7 @@ I am broadly interested in how photonics, quantum optics, and hardware systems i
 <div class="selected-projects-grid">
   {% assign featured_projects = site.projects | where_exp: "p", "p.importance <= 2" | sort: "importance" %}
   {% for project in featured_projects %}
-    <a href="{{ project.url | relative_url }}" class="project-card">
+    <a href="{{ '/projects/' | relative_url }}" class="project-card">
       {% if project.image %}
         <div class="project-image">
           <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
