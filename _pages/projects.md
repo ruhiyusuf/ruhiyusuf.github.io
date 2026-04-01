@@ -84,7 +84,7 @@ display_categories: [research, hardware, embedded, software]
 }
 .proj-meta {
   margin: 0 0 0.35rem 0;
-  font-size: 0.72rem;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;

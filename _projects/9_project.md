@@ -7,7 +7,7 @@ importance: 8
 category: embedded
 year: 2023
 img_side: left
-img_size: 360
+img_size: 400
 ---
 
 Every project has a beautiful feature showcase page.

@@ -8,5 +8,5 @@ importance: 3
 year: 2026
 category: research
 img_side: right
-img_size: 240
+img_size: 220
 ---
