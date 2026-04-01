@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>EE Undergrad @ UMich </a>. Integrated Photonics · Experimental Optical Systems & Device Characterization
+subtitle: <a href='https://ece.engin.umich.edu/'>EE Undergrad @ UMich </a>. Integrated Photonics · Experimental Optical Systems & Device Characterization
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false
 
 selected_papers: true
-social: false
+social: true
 
 announcements:
   enabled: false
@@ -173,7 +173,7 @@ I am currently exploring research and internship opportunities in quantum photon
 
 ---
 
-## Other Stuff
+## Beyond the Lab
 
 <div class="fun-grid">
   <!-- Hackathon 1
@@ -225,6 +225,6 @@ I am currently exploring research and internship opportunities in quantum photon
   margin-top: 0.5rem;
   font-size: 0.9rem;
   font-weight: 500;
-  color: #222;
+  color: var(--global-text-color);
 }
 </style>

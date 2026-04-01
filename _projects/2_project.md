@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Quantum MNIST Autoencoder
-description: Implemented a quantum circuit to encode and reconstruct MNIST digits using variational autoencoders for compression and fidelity analysis.
+description: Implemented a variational quantum autoencoder to encode and reconstruct MNIST digits, exploring compression and fidelity in quantum machine learning.
 image: assets/img/qae.png
 importance: 2
 year: 2025

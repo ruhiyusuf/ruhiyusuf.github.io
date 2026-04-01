@@ -49,7 +49,7 @@ nav_order: 3
 .projects {
   margin-top: 2rem;
 }
-.year-section {
+/* .year-section {
   position: relative;
   margin-bottom: 3rem;
 }
@@ -59,8 +59,21 @@ nav_order: 3
   top: 0;
   font-size: 2rem;
   font-weight: 200;
-  color: #d0d0d0;
+  color: var(--global-divider-color);
   margin: 0;
+} */
+.year-section {
+  margin-bottom: 3rem;
+}
+.year {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--global-divider-color);
+  margin: 0 0 1.5rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
 }
 .proj-item {
   display: flex;
@@ -96,7 +109,7 @@ nav_order: 3
 }
 .proj-desc {
   margin: 0;
-  color: #555;
+  color: var(--global-text-color-light);
   font-size: 0.98rem;
   line-height: 1.5;
 }
