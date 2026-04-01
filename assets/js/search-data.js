@@ -54,14 +54,29 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-zero-knowledge-proof-for-image-authentication",
+          section: "News",},{id: "projects-dilution-refrigerator-ribbon-structure-simulation",
+          title: 'Dilution Refrigerator Ribbon Structure Simulation',
+          description: "Simulated a ribbon-supported mounting structure for dilution refrigerator experiments to study vibration sensitivity and thermal performance under cryogenic conditions. Used COMSOL to evaluate frequency-domain response and heat transport, identifying design trade-offs in ribbon geometry and thermal anchoring (e.g., copper braids) for improved mechanical stability and efficient cooling. This work informs the integration of optomechanical components into cryogenic quantum systems.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-automated-vna-control-and-cryogenic-data-logging",
+          title: 'Automated VNA Control and Cryogenic Data Logging',
+          description: "Developed the backend for an automated VNA measurement system for cryogenic experiments, including sweep control, instrument communication, file handling, and dataset logging. Integrated Bluefors API polling to pair S-parameter measurements with temperature and pressure data during extended experimental runs.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
+            },},{id: "projects-integrated-photonics-device-characterization",
+          title: 'Integrated Photonics Device Characterization',
+          description: "Performed classical characterization of silicon nitride photonic integrated circuits, including fiber-to-chip coupling, polarization optimization, and resonance measurements. Worked with bidirectional pumping setups, EDFAs, and polarization controllers to configure and stabilize optical experiments. Extracted device parameters through resonance fitting and spectral analysis, and explored nonlinear processes such as second-harmonic generation (SHG) to understand device behavior.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
+            },},{id: "projects-zero-knowledge-proof-for-image-authentication",
           title: 'Zero-Knowledge Proof for Image Authentication',
-          description: "Developed a Zero-Knowledge Proof–based image authentication protocol at Carnegie Mellon’s OurCS conference to verify digital images without revealing content.",
+          description: "Developed a zero-knowledge proof–based pipeline for image authentication using Circom and zk-SNARKs, enabling verification of transformations such as cropping and redaction without revealing original image content. This work was presented at Carnegie Mellon’s OurCS conference.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-quantum-mnist-autoencoder",
           title: 'Quantum MNIST Autoencoder',
-          description: "Implemented a quantum circuit to encode and reconstruct MNIST digits using variational autoencoders for compression and fidelity analysis.",
+          description: "Implemented a variational quantum autoencoder to encode and reconstruct MNIST digits, exploring compression and fidelity in quantum machine learning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-balanced-homodyne-photodetector-pcb",
@@ -104,7 +119,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%72%75%68%69%79@%75%6D%69%63%68.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/ruhiyusuf", "_blank");
         },
       },{
         id: 'social-inspire',
@@ -114,18 +136,18 @@ ninja.data = [{
           window.open("https://inspirehep.net/authors/1010907", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/ruhiy", "_blank");
+        },
+      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
         },
       },{
         id: 'social-custom_social',
