@@ -53,13 +53,13 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "news-announcement-1",
-          title: 'Announcement_1',
+          section: "News",},{id: "news-cleo-2026",
+          title: 'CLEO 2026',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
-            },},{id: "news-announcement-2",
-          title: 'Announcement_2',
+            },},{id: "news-lightmatter",
+          title: 'Lightmatter',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
