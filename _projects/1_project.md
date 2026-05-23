@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Zero-Knowledge Proof for Image Authentication
-description: Developed a zero-knowledge proof–based pipeline for image authentication using Circom and zk-SNARKs, enabling verification of transformations such as cropping and redaction without revealing original image content. This work was presented at Carnegie Mellon’s OurCS conference.
+description: Built a Zero-Knowledge Proof-based image authentication system to verify that photo transformations (cropping, redaction) are valid without revealing the original image. Implemented ZK-SNARK circuits in Circom to encode image transformations as mathematical constraints, enabling cryptographic proof generation and verification. Developed as part of Carnegie Mellon's OurCS 2024 conference, targeting applications in photojournalism, forensic evidence, and AI-generated image detection.
 image: /assets/img/zkp_overview.png
 image2: /assets/img/zkp_poster.png
 importance: 7

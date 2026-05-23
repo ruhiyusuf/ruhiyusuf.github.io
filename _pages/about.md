@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://ece.engin.umich.edu/'>EE Undergrad @ UMich </a>. Integrated Photonics · Experimental Optical Systems & Device Characterization
+subtitle: <a href='https://ece.engin.umich.edu/'>EE @ UMich</a> · Integrated Photonics · Experimental Optical Systems · Incoming @ <a href='https://lightmatter.co/'>Lightmatter</a>
 
 profile:
   align: right
@@ -13,7 +13,7 @@ selected_papers: true
 social: true
 
 announcements:
-  enabled: false
+  enabled: true
   scrollable: true
   limit: 5
 
