@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2026-05-19
+title: CLEO 2026
 inline: false
 related_posts: false
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
-date: 2026-05-26
+title: Lightmatter
+date: 2026-05-30
 inline: false
 related_posts: false
 ---
