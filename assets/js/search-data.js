@@ -43,10 +43,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+            },},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
@@ -54,7 +51,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-dilution-refrigerator-ribbon-structure-simulation",
+          section: "News",},{id: "news-announcement-1",
+          title: 'Announcement_1',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_1/";
+            },},{id: "projects-dilution-refrigerator-ribbon-structure-simulation",
           title: 'Dilution Refrigerator Ribbon Structure Simulation',
           description: "Simulated a ribbon-supported mounting structure for dilution refrigerator experiments to study vibration sensitivity and thermal performance under cryogenic conditions. Used COMSOL to evaluate frequency-domain response and heat transport, identifying design trade-offs in ribbon geometry and thermal anchoring (e.g., copper braids) for improved mechanical stability and efficient cooling. This work informs the integration of optomechanical components into cryogenic quantum systems.",
           section: "Projects",handler: () => {
@@ -71,12 +73,12 @@ ninja.data = [{
               window.location.href = "/projects/12_project/";
             },},{id: "projects-zero-knowledge-proof-for-image-authentication",
           title: 'Zero-Knowledge Proof for Image Authentication',
-          description: "Developed a zero-knowledge proof–based pipeline for image authentication using Circom and zk-SNARKs, enabling verification of transformations such as cropping and redaction without revealing original image content. This work was presented at Carnegie Mellon’s OurCS conference.",
+          description: "Built a Zero-Knowledge Proof-based image authentication system to verify that photo transformations (cropping, redaction) are valid without revealing the original image. Implemented ZK-SNARK circuits in Circom to encode image transformations as mathematical constraints, enabling cryptographic proof generation and verification. Developed as part of Carnegie Mellon&#39;s OurCS 2024 conference, targeting applications in photojournalism, forensic evidence, and AI-generated image detection.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-quantum-mnist-autoencoder",
-          title: 'Quantum MNIST Autoencoder',
-          description: "Implemented a variational quantum autoencoder to encode and reconstruct MNIST digits, exploring compression and fidelity in quantum machine learning.",
+            },},{id: "projects-quantum-autoencoders-tutorial-amp-live-demo-ieee-isit-2025",
+          title: 'Quantum Autoencoders - Tutorial &amp;amp; Live Demo, IEEE ISIT 2025',
+          description: "Designed and delivered a 1-hour tutorial on quantum autoencoders at the IEEE ISIT 75th Anniversary Quantum Hackathon. Covered QAE architecture, variational circuit design, fidelity-based loss functions, and the Transverse Field Ising Model as a structured quantum data source. Closed with a live Qiskit implementation and demo. Built for an audience ranging from quantum beginners to practitioners.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-balanced-homodyne-photodetector-pcb",
