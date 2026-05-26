@@ -23,15 +23,19 @@ latest_posts:
   limit: 3
 ---
 
-As an undergraduate researcher in Prof. Zheshen Zhang's Quantum Engineering Lab, I work on experimental integrated photonics, specifically the generation and stabilization of dissipative Kerr solitons in silicon nitride microring resonators.
+I am an undergraduate researcher at the University of Michigan working at the intersection of integrated photonics, nonlinear optics, and quantum hardware in Prof. Zheshen Zhang's <a href='https://quantumlab.engin.umich.edu/'>Quantum Engineering Lab</a>.
 
-My work spans FPGA-based waveform control for soliton generation, dispersion measurement and mode analysis, custom PCB design for balanced homodyne detection, and mechanical design for cryogenic mounting in a Bluefors dilution refrigerator. This work has contributed to a co-authored publication in Optics Letters and two papers accepted to <a href='https://cleoconference.org/'>CLEO 2026</a>.
+My work focuses on the characterization and control of silicon nitride photonic integrated circuits, the generation and stabilization of dissipative Kerr solitons in microring resonators, and the dispersion and nonlinear dynamics underlying frequency comb behavior. I also develop FPGA-based control and measurement infrastructure for photonic experiments, alongside low-noise balanced homodyne photodetectors, cryogenic measurement systems, and mechanical design for millikelvin environments.
 
-I am broadly interested in how photonics, quantum optics, and hardware systems intersect. I plan to pursue a PhD in experimental quantum photonics.
+This work has contributed to a co-authored publication in Optics Letters and two papers at <a href='https://cleoconference.org/'>CLEO 2026</a>, including an oral presentation on wafer-scale Si₃N₄ photonic integrated circuit fabrication.
+
+I am broadly interested in how photonic and quantum systems scale from laboratory demonstrations into manufacturable and deployable platforms for communication, sensing, and computation. This summer I am joining <a href='https://lightmatter.co/'>Lightmatter</a> as an Embedded Laser Intern, working on control and stabilization of multi-wavelength laser systems for photonic computing.
+
+I plan to pursue a PhD in experimental quantum photonics and integrated optical systems, and am actively seeking research internship opportunities for Summer 2027.
 
 ---
 
-## Coursework
+## coursework
 
 <div class="course-grid">
   <div class="course-col">
@@ -104,7 +108,7 @@ I am broadly interested in how photonics, quantum optics, and hardware systems i
 }
 </style>
 
-## Selected Projects
+## selected projects
 
 <div class="selected-projects-grid">
   {% assign featured_projects = site.projects | where_exp: "p", "p.importance <= 2" | sort: "importance" %}
@@ -207,7 +211,7 @@ I am broadly interested in how photonics, quantum optics, and hardware systems i
 
 ---
 
-## Volunteering
+## volunteering
 
 <div class="fun-grid">
   <!-- Hackathon 1
