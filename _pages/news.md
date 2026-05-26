@@ -104,7 +104,7 @@ permalink: /news/
   grid-template-columns: 1fr 1.6fr;
   gap: 0.6rem;
   margin-top: 0.8rem;
-  max-width: 380px;
+  max-width: 520px;
 }
 
 .news-img-wrap {
