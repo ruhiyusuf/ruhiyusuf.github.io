@@ -71,3 +71,11 @@ permalink: /news/
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+
+.news-img-wrap {
+  overflow: hidden;
+  border-radius: 8px;
+  aspect-ratio: 4/3;
+  max-height: 200px;
+}
