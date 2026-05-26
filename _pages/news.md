@@ -65,17 +65,16 @@ permalink: /news/
   font-weight: 500;
 }
 
-.news-tag {
-  display: inline-block;
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
 .news-img-wrap {
   overflow: hidden;
   border-radius: 8px;
-  aspect-ratio: 4/3;
-  max-height: 200px;
+  max-height: 220px;
+}
+
+.news-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
 }
