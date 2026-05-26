@@ -31,7 +31,7 @@ This work has contributed to a co-authored publication in Optics Letters and two
 
 I am broadly interested in how photonic and quantum systems scale from laboratory demonstrations into manufacturable and deployable platforms for communication, sensing, and computation. This summer I am joining <a href='https://lightmatter.co/'>Lightmatter</a> as an Embedded Laser Intern, working on control and stabilization of multi-wavelength laser systems for photonic computing.
 
-I plan to pursue a PhD in experimental quantum photonics and integrated optical systems, and am actively seeking research internship opportunities for Summer 2027.
+I plan to pursue a PhD in experimental quantum photonics and integrated optical systems.
 
 ---
 
