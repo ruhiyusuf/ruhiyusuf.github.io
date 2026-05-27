@@ -108,6 +108,8 @@ I plan to pursue a PhD in experimental quantum photonics and integrated optical 
 }
 </style>
 
+---
+
 ## selected projects
 
 <div class="selected-projects-grid">
@@ -266,3 +268,5 @@ I plan to pursue a PhD in experimental quantum photonics and integrated optical 
   color: var(--global-text-color);
 }
 </style>
+
+---
