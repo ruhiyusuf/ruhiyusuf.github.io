@@ -23,13 +23,13 @@ latest_posts:
   limit: 3
 ---
 
-I am an undergraduate researcher at the University of Michigan working at the intersection of integrated photonics, nonlinear optics, and quantum hardware in Prof. Zheshen Zhang's <a href='https://quantumlab.engin.umich.edu/'>Quantum Engineering Lab</a>.
+I am an undergraduate researcher at the University of Michigan working across integrated photonics, nonlinear optics, and experimental quantum photonics in Prof. Zheshen Zhang's <a href='https://quantumlab.engin.umich.edu/'>Quantum Engineering Lab</a>.
 
-My work focuses on the characterization and control of silicon nitride photonic integrated circuits, the generation and stabilization of dissipative Kerr solitons in microring resonators, and the dispersion and nonlinear dynamics underlying frequency comb behavior. I also develop FPGA-based control and measurement infrastructure for photonic experiments, alongside low-noise balanced homodyne photodetectors, cryogenic measurement systems, and mechanical design for millikelvin environments.
+My research focuses on the characterization of silicon nitride photonic integrated circuits, the generation and stabilization of dissipative Kerr solitons in microring resonators, and the dispersion and nonlinear dynamics underlying frequency-comb behavior. I also develop FPGA-based measurement and feedback systems for photonic experiments, along with low-noise balanced homodyne photodetectors and instrumentation for cryogenic optical measurements.
 
-This work has contributed to a co-authored publication in Optics Letters and two papers at <a href='https://cleoconference.org/'>CLEO 2026</a>, including an oral presentation on wafer-scale Si₃N₄ photonic integrated circuit fabrication.
+My work has contributed to a co-authored publication in <i>Optics Letters</i> and two conference papers at <a href='https://cleoconference.org/'>CLEO 2026</a>, including an oral presentation on wafer-scale Si₃N₄ photonic integrated circuits.
 
-I am broadly interested in how photonic and quantum systems scale from laboratory demonstrations into manufacturable and deployable platforms for communication, sensing, and computation. This summer I am joining <a href='https://lightmatter.co/'>Lightmatter</a> as an Embedded Laser Intern, working on control and stabilization of multi-wavelength laser systems for photonic computing.
+I am broadly interested in translating photonic and quantum systems from laboratory demonstrations into scalable platforms for communication, sensing, and computation. I am currently an Embedded Laser Intern at <a href='https://lightmatter.co/'>Lightmatter</a>, where I work on the characterization and stabilization of multi-wavelength laser systems for photonic computing.
 
 I plan to pursue a PhD in experimental quantum photonics and integrated optical systems.
 
