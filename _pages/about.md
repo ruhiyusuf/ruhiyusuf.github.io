@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://ece.engin.umich.edu/'>EE @ UMich</a> · Integrated Photonics · Experimental Optical Systems · Incoming @ <a href='https://lightmatter.co/'>Lightmatter</a>
+subtitle: <a href='https://ece.engin.umich.edu/'>EE @ UMich</a> · Integrated Photonics · Experimental Optical Systems · Lightmatter '26
 
 profile:
   align: right
@@ -27,86 +27,13 @@ I am an undergraduate researcher at the University of Michigan working across in
 
 My research focuses on the characterization of silicon nitride photonic integrated circuits, the generation and stabilization of dissipative Kerr solitons in microring resonators, and the dispersion and nonlinear dynamics underlying frequency-comb behavior. I also develop FPGA-based measurement and feedback systems for photonic experiments, along with low-noise balanced homodyne photodetectors and instrumentation for cryogenic optical measurements.
 
-My work has contributed to a co-authored publication in <i>Optics Letters</i> and two conference papers at <a href='https://cleoconference.org/'>CLEO 2026</a>, including an oral presentation on wafer-scale Si₃N₄ photonic integrated circuits.
+My work has contributed to a co-authored publication in <i>Optics Letters</i> and two conference papers at <a href='https://cleoconference.org/'>CLEO 2026</a>, including an oral presentation on wafer-scale Si₃N₄ photonic integrated circuits, and a poster at NCUR 2025. In summer 2025, my proposal on control and detector units for quantum photonics was selected for the Michigan Undergraduate Research in Quantum (MURiQ) program.
 
-I am broadly interested in translating photonic and quantum systems from laboratory demonstrations into scalable platforms for communication, sensing, and computation. I am currently an Embedded Laser Intern at <a href='https://lightmatter.co/'>Lightmatter</a>, where I work on the characterization and stabilization of multi-wavelength laser systems for photonic computing.
+I am broadly interested in the physics and engineering of photonic devices, from device characterization to the control systems that make them useful in real platforms for communication, sensing, and computation. This summer, I am completing an internship as an Embedded Laser Intern at <a href='https://lightmatter.co/'>Lightmatter</a>, working on automated characterization and control-parameter optimization for a multi-wavelength laser system used in optical interconnects for AI infrastructure.
 
-I plan to pursue a PhD in experimental quantum photonics and integrated optical systems.
+I plan to pursue a PhD in integrated photonics and photonic device physics, with an interest in quantum photonic systems.
 
----
-
-## coursework
-
-<div class="course-grid">
-  <div class="course-col">
-    <p class="course-heading">Electrical Engineering</p>
-    <ul>
-      <li>Digital Integrated Circuits</li>
-      <li>VLSI Design I</li>
-      <li>Signals and Systems</li>
-    </ul>
-  </div>
-  <div class="course-col">
-    <p class="course-heading">Photonics & Quantum</p>
-    <ul>
-      <li>Principles of Optics</li>
-      <li>Electromagnetism</li>
-      <li>Quantum Information Technology</li>
-    </ul>
-  </div>
-  <div class="course-col">
-    <p class="course-heading">Math & CS</p>
-    <ul>
-      <li>Multivariable Calculus</li>
-      <li>Differential Equations</li>
-      <li>Linear Algebra</li>
-      <li>Programming & Data Structures</li>
-    </ul>
-  </div>
-  <div class="course-col">
-    <p class="course-heading">Planned</p>
-    <ul>
-      <li>Classical Optics</li>
-      <li>Advanced Lasers & Optics Lab</li>
-      <li>Optical Waves in Crystals</li>
-      <li>VLSI Design II</li>
-      <li>VLSI Tapeout Lab</li>
-      <li>Micro/Nano Fabrication</li>
-    </ul>
-  </div>
-</div>
-
-<style>
-.course-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-.course-heading {
-  font-size: 0.9rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--global-theme-color);
-  margin-bottom: 0.5rem;
-}
-.course-col ul {
-  padding-left: 1rem;
-  margin: 0;
-}
-.course-col li {
-  font-size: 0.88rem;
-  color: var(--global-text-color);
-  padding: 0.15rem 0;
-}
-@media (max-width: 600px) {
-  .course-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-</style>
+**Tools:** analog & RF circuit design · PCB layout · FPGA (Red Pitaya) · embedded software · Python · COMSOL (thermal/mechanical) · cryogenic instrumentation · optical characterization
 
 ---
 
@@ -208,6 +135,81 @@ I plan to pursue a PhD in experimental quantum photonics and integrated optical 
 .projects-link a:hover {
   color: #005fa3;
   text-decoration: underline;
+}
+</style>
+
+---
+
+## selected coursework
+
+<div class="course-grid">
+  <div class="course-col">
+    <p class="course-heading">Electrical Engineering</p>
+    <ul>
+      <li>Digital Integrated Circuits</li>
+      <li>VLSI Design I</li>
+      <li>Signals and Systems</li>
+    </ul>
+  </div>
+  <div class="course-col">
+    <p class="course-heading">Photonics & Quantum</p>
+    <ul>
+      <li>Principles of Optics</li>
+      <li>Electromagnetism</li>
+      <li>Quantum Information Technology</li>
+    </ul>
+  </div>
+  <div class="course-col">
+    <p class="course-heading">Math & CS</p>
+    <ul>
+      <li>Multivariable Calculus</li>
+      <li>Differential Equations</li>
+      <li>Linear Algebra</li>
+      <li>Programming & Data Structures</li>
+    </ul>
+  </div>
+  <div class="course-col">
+    <p class="course-heading">Planned</p>
+    <ul>
+      <li>Classical Optics</li>
+      <li>Advanced Lasers & Optics Lab</li>
+      <li>Optical Waves in Crystals</li>
+      <li>VLSI Design II</li>
+      <li>VLSI Tapeout Lab</li>
+      <li>Micro/Nano Fabrication</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.course-heading {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  margin-bottom: 0.5rem;
+}
+.course-col ul {
+  padding-left: 1rem;
+  margin: 0;
+}
+.course-col li {
+  font-size: 0.88rem;
+  color: var(--global-text-color);
+  padding: 0.15rem 0;
+}
+@media (max-width: 600px) {
+  .course-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 </style>
 
