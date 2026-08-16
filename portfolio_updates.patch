@@ -1,0 +1,872 @@
+diff --git a/_bibliography/papers.bib b/_bibliography/papers.bib
+index 97ee801..55698b9 100644
+--- a/_bibliography/papers.bib
++++ b/_bibliography/papers.bib
+@@ -1,3 +1,11 @@
++@misc{yusuf2025ncur,
++  title     = {Enhancing the Stability of Soliton Microcombs: Extending Soliton Step Duration Using Custom Waveform Control},
++  author    = {Yusuf, Ruhi},
++  howpublished = {Poster, National Conference on Undergraduate Research (NCUR)},
++  year      = {2025},
++  month     = {April},
++}
++
+ @article{liu2025ol,
+   title     = {Ultra-low-loss photonic integrated chips on an 8-inch anomalous-dispersion {Si₃N₄-SiO₂-Si} wafer (2025)},
+   author    = {Liu, Shuai and Puckett, Matthew W. and Wu, Jianfeng and Hariri, Abdulkarim and Zhang, Yuheng and Al-Hallak, Abdur-Raheem and Yusuf, Ruhi and Zhang, Zheshen},
+@@ -25,6 +33,7 @@
+   abbr      = {CLEO},
+   selected  = {true},
+   preview   = {cleo.jpg},
++  html      = {https://opg.optica.org/abstract.cfm?uri=CLEO_AT-2026-ATU2D.3},
+ }
+ 
+ @inproceedings{hallak2026cleo_b,
+@@ -37,4 +46,5 @@
+   abbr      = {CLEO},
+   selected  = {true},
+   preview   = {cleo.jpg},
++  html      = {https://opg.optica.org/abstract.cfm?uri=CLEO_AT-2026-ATU2E.7},
+ }
+diff --git a/_config.yml b/_config.yml
+index 1c2f822..20631f8 100644
+--- a/_config.yml
++++ b/_config.yml
+@@ -9,11 +9,10 @@ last_name: Yusuf
+ # contact_note: >
+ #   You can even add a little note about which of these is the best way to reach you.
+ description: > # the ">" symbol means to ignore newlines until "footer_text:"
+-  Undergraduate researcher at the University of Michigan working on integrated photonics, silicon nitride PICs, and soliton microcombs. Incoming Embedded Laser Intern at Lightmatter.
++  Undergraduate researcher at the University of Michigan working on integrated photonics, silicon nitride PICs, and soliton microcombs. Summer 2026 Embedded Laser Intern at Lightmatter.
+ footer_text: >
+   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+ keywords: integrated photonics, silicon nitride, soliton microcomb, photonic integrated circuits, quantum photonics, University of Michigan
+ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+ icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+diff --git a/_pages/about.md b/_pages/about.md
+index bd7c9f3..6e01bb2 100644
+--- a/_pages/about.md
++++ b/_pages/about.md
+@@ -2,7 +2,7 @@
+ layout: about
+ title: about
+ permalink: /
+-subtitle: <a href='https://ece.engin.umich.edu/'>EE @ UMich</a> · Integrated Photonics · Experimental Optical Systems · Incoming @ <a href='https://lightmatter.co/'>Lightmatter</a>
++subtitle: <a href='https://ece.engin.umich.edu/'>EE @ UMich</a> · Integrated Photonics · Experimental Optical Systems · Lightmatter '26
+ 
+ profile:
+   align: right
+@@ -27,86 +27,13 @@ I am an undergraduate researcher at the University of Michigan working across in
+ 
+ My research focuses on the characterization of silicon nitride photonic integrated circuits, the generation and stabilization of dissipative Kerr solitons in microring resonators, and the dispersion and nonlinear dynamics underlying frequency-comb behavior. I also develop FPGA-based measurement and feedback systems for photonic experiments, along with low-noise balanced homodyne photodetectors and instrumentation for cryogenic optical measurements.
+ 
+-My work has contributed to a co-authored publication in <i>Optics Letters</i> and two conference papers at <a href='https://cleoconference.org/'>CLEO 2026</a>, including an oral presentation on wafer-scale Si₃N₄ photonic integrated circuits.
++My work has contributed to a co-authored publication in <i>Optics Letters</i> and two conference papers at <a href='https://cleoconference.org/'>CLEO 2026</a>, including an oral presentation on wafer-scale Si₃N₄ photonic integrated circuits, and a poster at NCUR 2025. In summer 2025, my proposal on control and detector units for quantum photonics was selected for the Michigan Undergraduate Research in Quantum (MURiQ) program.
+ 
+-I am broadly interested in translating photonic and quantum systems from laboratory demonstrations into scalable platforms for communication, sensing, and computation. I am currently an Embedded Laser Intern at <a href='https://lightmatter.co/'>Lightmatter</a>, where I work on the characterization and stabilization of multi-wavelength laser systems for photonic computing.
++I am broadly interested in the physics and engineering of photonic devices, from device characterization to the control systems that make them useful in real platforms for communication, sensing, and computation. This summer, I am completing an internship as an Embedded Laser Intern at <a href='https://lightmatter.co/'>Lightmatter</a>, working on automated characterization and control-parameter optimization for a multi-wavelength laser system used in optical interconnects for AI infrastructure.
+ 
+-I plan to pursue a PhD in experimental quantum photonics and integrated optical systems.
++I plan to pursue a PhD in integrated photonics and photonic device physics, with an interest in quantum photonic systems.
+ 
+----
+-
+-## coursework
+-
+-<div class="course-grid">
+-  <div class="course-col">
+-    <p class="course-heading">Electrical Engineering</p>
+-    <ul>
+-      <li>Digital Integrated Circuits</li>
+-      <li>VLSI Design I</li>
+-      <li>Signals and Systems</li>
+-    </ul>
+-  </div>
+-  <div class="course-col">
+-    <p class="course-heading">Photonics & Quantum</p>
+-    <ul>
+-      <li>Principles of Optics</li>
+-      <li>Electromagnetism</li>
+-      <li>Quantum Information Technology</li>
+-    </ul>
+-  </div>
+-  <div class="course-col">
+-    <p class="course-heading">Math & CS</p>
+-    <ul>
+-      <li>Multivariable Calculus</li>
+-      <li>Differential Equations</li>
+-      <li>Linear Algebra</li>
+-      <li>Programming & Data Structures</li>
+-    </ul>
+-  </div>
+-  <div class="course-col">
+-    <p class="course-heading">Planned</p>
+-    <ul>
+-      <li>Classical Optics</li>
+-      <li>Advanced Lasers & Optics Lab</li>
+-      <li>Optical Waves in Crystals</li>
+-      <li>VLSI Design II</li>
+-      <li>VLSI Tapeout Lab</li>
+-      <li>Micro/Nano Fabrication</li>
+-    </ul>
+-  </div>
+-</div>
+-
+-<style>
+-.course-grid {
+-  display: grid;
+-  grid-template-columns: repeat(4, 1fr);
+-  gap: 1.5rem;
+-  margin-top: 1rem;
+-  margin-bottom: 2rem;
+-}
+-.course-heading {
+-  font-size: 0.9rem;
+-  font-weight: 600;
+-  letter-spacing: 0.08em;
+-  text-transform: uppercase;
+-  color: var(--global-theme-color);
+-  margin-bottom: 0.5rem;
+-}
+-.course-col ul {
+-  padding-left: 1rem;
+-  margin: 0;
+-}
+-.course-col li {
+-  font-size: 0.88rem;
+-  color: var(--global-text-color);
+-  padding: 0.15rem 0;
+-}
+-@media (max-width: 600px) {
+-  .course-grid {
+-    grid-template-columns: repeat(2, 1fr);
+-  }
+-}
+-</style>
++**Tools:** analog & RF circuit design · PCB layout · FPGA (Red Pitaya) · embedded software · Python · COMSOL (thermal/mechanical) · cryogenic instrumentation · optical characterization
+ 
+ ---
+ 
+@@ -213,6 +140,81 @@ I plan to pursue a PhD in experimental quantum photonics and integrated optical
+ 
+ ---
+ 
++## selected coursework
++
++<div class="course-grid">
++  <div class="course-col">
++    <p class="course-heading">Electrical Engineering</p>
++    <ul>
++      <li>Digital Integrated Circuits</li>
++      <li>VLSI Design I</li>
++      <li>Signals and Systems</li>
++    </ul>
++  </div>
++  <div class="course-col">
++    <p class="course-heading">Photonics & Quantum</p>
++    <ul>
++      <li>Principles of Optics</li>
++      <li>Electromagnetism</li>
++      <li>Quantum Information Technology</li>
++    </ul>
++  </div>
++  <div class="course-col">
++    <p class="course-heading">Math & CS</p>
++    <ul>
++      <li>Multivariable Calculus</li>
++      <li>Differential Equations</li>
++      <li>Linear Algebra</li>
++      <li>Programming & Data Structures</li>
++    </ul>
++  </div>
++  <div class="course-col">
++    <p class="course-heading">Planned</p>
++    <ul>
++      <li>Classical Optics</li>
++      <li>Advanced Lasers & Optics Lab</li>
++      <li>Optical Waves in Crystals</li>
++      <li>VLSI Design II</li>
++      <li>VLSI Tapeout Lab</li>
++      <li>Micro/Nano Fabrication</li>
++    </ul>
++  </div>
++</div>
++
++<style>
++.course-grid {
++  display: grid;
++  grid-template-columns: repeat(4, 1fr);
++  gap: 1.5rem;
++  margin-top: 1rem;
++  margin-bottom: 2rem;
++}
++.course-heading {
++  font-size: 0.9rem;
++  font-weight: 600;
++  letter-spacing: 0.08em;
++  text-transform: uppercase;
++  color: var(--global-theme-color);
++  margin-bottom: 0.5rem;
++}
++.course-col ul {
++  padding-left: 1rem;
++  margin: 0;
++}
++.course-col li {
++  font-size: 0.88rem;
++  color: var(--global-text-color);
++  padding: 0.15rem 0;
++}
++@media (max-width: 600px) {
++  .course-grid {
++    grid-template-columns: repeat(2, 1fr);
++  }
++}
++</style>
++
++---
++
+ ## volunteering
+ 
+ <div class="fun-grid">
+diff --git a/_pages/publications.md b/_pages/publications.md
+index d29c427..26b6ddc 100644
+--- a/_pages/publications.md
++++ b/_pages/publications.md
+@@ -3,7 +3,7 @@ layout: page
+ permalink: /publications/
+ title: publications
+ description: list of publications
+-nav: false
++nav: true
+ nav_order: 2
+ ---
+ 
+diff --git a/_projects/0_project.md b/_projects/0_project.md
+new file mode 100644
+index 0000000..a56c901
+--- /dev/null
++++ b/_projects/0_project.md
+@@ -0,0 +1,13 @@
++---
++layout: page
++title: "Laser Characterization and Control — Lightmatter"
++description: "Summer 2026 Embedded Laser Intern at Lightmatter. Worked on automated characterization and control-parameter optimization for a multi-wavelength laser system used in optical interconnects for AI infrastructure, including experimental data pipelines and controller performance evaluation."
++image: /assets/img/lightmatter_logo.png
++importance: 1
++year: 2026
++category: research
++img_side: right
++img_size: 320
++short: Lightmatter
++tags: [Photonics, Control Systems]
++---
+diff --git a/_projects/10_project.md b/_projects/10_project.md
+index c4e126a..4ca51c6 100644
+--- a/_projects/10_project.md
++++ b/_projects/10_project.md
+@@ -4,7 +4,7 @@ title: Dilution Refrigerator Ribbon Structure Simulation
+ description: Simulated a ribbon-supported mounting structure for dilution refrigerator experiments to study vibration sensitivity and thermal performance under cryogenic conditions. Used COMSOL to evaluate frequency-domain response and heat transport, identifying design trade-offs in ribbon geometry and thermal anchoring (e.g., copper braids) for improved mechanical stability and efficient cooling. This work informs the integration of optomechanical components into cryogenic quantum systems.
+ image: /assets/img/cryo_freq.png
+ image2: /assets/img/cryo_cad.png
+-importance: 3
++importance: 4
+ year: 2026
+ category: research
+ img_side: right
+diff --git a/_projects/11_project.md b/_projects/11_project.md
+index bd1ceee..c1ccbcd 100644
+--- a/_projects/11_project.md
++++ b/_projects/11_project.md
+@@ -3,7 +3,7 @@ layout: page
+ title: Automated VNA Control and Cryogenic Data Logging
+ description: Developed the backend for an automated VNA measurement system for cryogenic experiments, including sweep control, instrument communication, file handling, and dataset logging. Integrated Bluefors API polling to pair S-parameter measurements with temperature and pressure data during extended experimental runs.
+ image: /assets/img/vna_gui.png
+-importance: 4
++importance: 5
+ year: 2026
+ category: research
+ img_side: left
+diff --git a/_projects/12_project.md b/_projects/12_project.md
+index ffeac87..8fa0c43 100644
+--- a/_projects/12_project.md
++++ b/_projects/12_project.md
+@@ -3,7 +3,7 @@ layout: page
+ title: Integrated Photonics Device Characterization
+ description: Performed classical characterization of silicon nitride photonic integrated circuits, including fiber-to-chip coupling, polarization optimization, and resonance measurements. Worked with bidirectional pumping setups, EDFAs, and polarization controllers to configure and stabilize optical experiments. Extracted device parameters through resonance fitting and spectral analysis, and explored nonlinear processes such as second-harmonic generation (SHG) to understand device behavior.
+ image: /assets/img/pic_setup.jpeg
+-importance: 1
++importance: 2
+ year: 2026
+ category: research
+ img_side: right
+diff --git a/_projects/1_project.md b/_projects/1_project.md
+index 4f60322..38cf3fe 100644
+--- a/_projects/1_project.md
++++ b/_projects/1_project.md
+@@ -1,12 +1,12 @@
+----
+-layout: page
+-title: Zero-Knowledge Proof for Image Authentication
+-description: Built a Zero-Knowledge Proof-based image authentication system to verify that photo transformations (cropping, redaction) are valid without revealing the original image. Implemented ZK-SNARK circuits in Circom to encode image transformations as mathematical constraints, enabling cryptographic proof generation and verification. Developed as part of Carnegie Mellon's OurCS 2024 conference, targeting applications in photojournalism, forensic evidence, and AI-generated image detection.
+-image: /assets/img/zkp_overview.png
+-image2: /assets/img/zkp_poster.png
+-importance: 7
+-year: 2024
+-category: software
+-img_side: right
+-img_size: 300
++---
++layout: page
++title: Zero-Knowledge Proof for Image Authentication
++description: Built a Zero-Knowledge Proof-based image authentication system to verify that photo transformations (cropping, redaction) are valid without revealing the original image. Implemented ZK-SNARK circuits in Circom to encode image transformations as mathematical constraints, enabling cryptographic proof generation and verification. Developed as part of Carnegie Mellon's OurCS 2024 conference, targeting applications in photojournalism, forensic evidence, and AI-generated image detection.
++image: /assets/img/zkp_overview.png
++image2: /assets/img/zkp_poster.png
++importance: 8
++year: 2024
++category: software
++img_side: right
++img_size: 300
+ ---
+\ No newline at end of file
+diff --git a/_projects/2_project.md b/_projects/2_project.md
+index 49781f9..e7d3a21 100644
+--- a/_projects/2_project.md
++++ b/_projects/2_project.md
+@@ -3,82 +3,10 @@ layout: page
+ title: Quantum Autoencoders - Tutorial & Live Demo, IEEE ISIT 2025
+ description: Designed and delivered a 1-hour tutorial on quantum autoencoders at the IEEE ISIT 75th Anniversary Quantum Hackathon. Covered QAE architecture, variational circuit design, fidelity-based loss functions, and the Transverse Field Ising Model as a structured quantum data source. Closed with a live Qiskit implementation and demo. Built for an audience ranging from quantum beginners to practitioners. 
+ image: assets/img/qae.png
+-importance: 6
++importance: 7
+ year: 2025
+ category: software
+ giscus_comments: true
+ img_side: left
+ img_size: 360
+ ---
+-
+-Every project has a beautiful feature showcase page.
+-It's easy to include images in a flexible 3-column grid format.
+-Make your photos 1/3, 2/3, or full width.
+-
+-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+-
+-    ---
+-    layout: page
+-    title: project
+-    description: a project with a background image
+-    img: /assets/img/12.jpg
+-    ---
+-
+-<div class="row">
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-</div>
+-<div class="caption">
+-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+-</div>
+-<div class="row">
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-</div>
+-<div class="caption">
+-    This image can also have a caption. It's like magic.
+-</div>
+-
+-You can also put regular text between your rows of images.
+-Say you wanted to write a little bit about your project before you posted the rest of the images.
+-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+-
+-<div class="row justify-content-sm-center">
+-    <div class="col-sm-8 mt-3 mt-md-0">
+-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm-4 mt-3 mt-md-0">
+-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-</div>
+-<div class="caption">
+-    You can also have artistically styled 2/3 + 1/3 images, like these.
+-</div>
+-
+-The code is simple.
+-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+-Here's the code for the last row of images above:
+-
+-{% raw %}
+-
+-```html
+-<div class="row justify-content-sm-center">
+-  <div class="col-sm-8 mt-3 mt-md-0">
+-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-  </div>
+-  <div class="col-sm-4 mt-3 mt-md-0">
+-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-  </div>
+-</div>
+-```
+-
+-{% endraw %}
+diff --git a/_projects/3_project.md b/_projects/3_project.md
+index a1468b5..5af2678 100644
+--- a/_projects/3_project.md
++++ b/_projects/3_project.md
+@@ -5,23 +5,23 @@ description: "Designed and fabricated a low-noise balanced photodetector for hom
+ image: /assets/img/photodetector_closeup.png
+ image2: /assets/img/photodetector_setup.png
+ year: 2025
+-importance: 5
++importance: 6
+ category: research
+ img_side: right
+ img_size: 240
+ ---
+-
++
+ ## Overview
+-
++
+ Designed and fabricated a low-noise balanced photodetector for homodyne detection in quantum optics experiments. This project focused on analog circuit design, PCB layout, and experimental testing for optical measurement systems.
+-
++
+ ## What I worked on
+-
++
+ - Designed the detector circuit in LTSpice
+ - Built the PCB in EasyEDA
+ - Tested gain, bandwidth, and noise performance
+ - Integrated the detector into an optical setup for characterization
+-
++
+ <div class="row">
+   <div class="col-sm-6 mt-3 mt-md-0">
+     {% include figure.liquid path="assets/img/photodetector_closeup.png" title="Balanced photodetector PCB" class="img-fluid rounded z-depth-1" %}
+@@ -33,7 +33,7 @@ Designed and fabricated a low-noise balanced photodetector for homodyne detectio
+ <div class="caption">
+   Left: fabricated balanced photodetector PCB. Right: optical setup used for detector testing and characterization.
+ </div>
+-
++
+ ## Outcome
+-
++
+ This work explored whether a significantly lower-cost detector could still provide useful performance for balanced homodyne detection and related optical sensing applications.
+\ No newline at end of file
+diff --git a/_projects/4_project.md b/_projects/4_project.md
+index f36e67d..029bddc 100644
+--- a/_projects/4_project.md
++++ b/_projects/4_project.md
+@@ -1,12 +1,12 @@
+----
+-layout: page
+-title: "Liquid Nitrogen Monitoring System (ESP32)"
+-description: "Developed an ESP32-based system to monitor liquid nitrogen levels using weight sensing. Implemented data logging and alert mechanisms to track cryogen usage and ensure reliable operation of lab systems."
+-image: /assets/img/dewar_setup.png
+-image2: /assets/img/dewar.png
+-year: 2025
+-importance: 8
+-category: embedded
+-img_side: left
+-img_size: 240
++---
++layout: page
++title: "Liquid Nitrogen Monitoring System (ESP32)"
++description: "Developed an ESP32-based system to monitor liquid nitrogen levels using weight sensing. Implemented data logging and alert mechanisms to track cryogen usage and ensure reliable operation of lab systems."
++image: /assets/img/dewar_setup.png
++image2: /assets/img/dewar.png
++year: 2025
++importance: 10
++category: embedded
++img_side: left
++img_size: 240
+ ---
+\ No newline at end of file
+diff --git a/_projects/5_project.md b/_projects/5_project.md
+index 34bd40d..dd8be42 100644
+--- a/_projects/5_project.md
++++ b/_projects/5_project.md
+@@ -1,12 +1,12 @@
+----
+-layout: page
+-title: Enhancing Soliton Microcomb Stability with Custom Waveform Control
+-description: Developed a Red Pitaya–based waveform control system for pump-laser detuning in Si₃N₄ microring resonators. Implemented tuning strategies to reliably access and stabilize dissipative Kerr soliton states, enabling longer soliton steps and improved frequency comb stability.
+-image: /assets/img/soliton.png
+-img_side: right
+-importance: 2
+-year: 2025
+-category: research
+-img_side: left
+-img_size: 380
++---
++layout: page
++title: Enhancing Soliton Microcomb Stability with Custom Waveform Control
++description: Developed a Red Pitaya–based waveform control system for pump-laser detuning in Si₃N₄ microring resonators. Implemented tuning strategies to reliably access and stabilize dissipative Kerr soliton states, enabling longer soliton steps and improved frequency comb stability.
++image: /assets/img/soliton.png
++img_side: right
++importance: 3
++year: 2025
++category: research
++img_side: left
++img_size: 380
+ ---
+\ No newline at end of file
+diff --git a/_projects/6_project.md b/_projects/6_project.md
+index b01d710..84d5549 100644
+--- a/_projects/6_project.md
++++ b/_projects/6_project.md
+@@ -1,83 +1,11 @@
+ ---
+ layout: page
+ title: Driver Camera and Retroreflective Vision (Jetson Nano)
+-description: Developed a C++ and Gstreamer-based dual-camera vision system with retroreflective target detection for driver assistance.
++description: Developed a C++ and GStreamer-based dual-camera vision system with retroreflective target detection for driver assistance.
+ image: assets/img/nano.jpg
+-importance: 10
++importance: 12
+ category: embedded
+ year: 2023
+ img_side: left
+ img_size: 360
+ ---
+-
+-Every project has a beautiful feature showcase page.
+-It's easy to include images in a flexible 3-column grid format.
+-Make your photos 1/3, 2/3, or full width.
+-
+-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+-
+-    ---
+-    layout: page
+-    title: project
+-    description: a project with a background image
+-    img: /assets/img/12.jpg
+-    ---
+-
+-<div class="row">
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-</div>
+-<div class="caption">
+-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+-</div>
+-<div class="row">
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-</div>
+-<div class="caption">
+-    This image can also have a caption. It's like magic.
+-</div>
+-
+-You can also put regular text between your rows of images.
+-Say you wanted to write a little bit about your project before you posted the rest of the images.
+-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+-
+-<div class="row justify-content-sm-center">
+-    <div class="col-sm-8 mt-3 mt-md-0">
+-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm-4 mt-3 mt-md-0">
+-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-</div>
+-<div class="caption">
+-    You can also have artistically styled 2/3 + 1/3 images, like these.
+-</div>
+-
+-The code is simple.
+-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+-Here's the code for the last row of images above:
+-
+-{% raw %}
+-
+-```html
+-<div class="row justify-content-sm-center">
+-  <div class="col-sm-8 mt-3 mt-md-0">
+-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-  </div>
+-  <div class="col-sm-4 mt-3 mt-md-0">
+-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-  </div>
+-</div>
+-```
+-
+-{% endraw %}
+diff --git a/_projects/7_project.md b/_projects/7_project.md
+index a9ef3f8..033409e 100644
+--- a/_projects/7_project.md
++++ b/_projects/7_project.md
+@@ -10,75 +10,3 @@ year: 2023
+ img_side: right
+ img_size: 200
+ ---
+-
+-Every project has a beautiful feature showcase page.
+-It's easy to include images in a flexible 3-column grid format.
+-Make your photos 1/3, 2/3, or full width.
+-
+-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+-
+-    ---
+-    layout: page
+-    title: project
+-    description: a project with a background image
+-    img: /assets/img/12.jpg
+-    ---
+-
+-<div class="row">
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-</div>
+-<div class="caption">
+-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+-</div>
+-<div class="row">
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-</div>
+-<div class="caption">
+-    This image can also have a caption. It's like magic.
+-</div>
+-
+-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
+-Say you wanted to write a bit about your project before you posted the rest of the images.
+-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+-
+-<div class="row justify-content-sm-center">
+-    <div class="col-sm-8 mt-3 mt-md-0">
+-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm-4 mt-3 mt-md-0">
+-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-</div>
+-<div class="caption">
+-    You can also have artistically styled 2/3 + 1/3 images, like these.
+-</div>
+-
+-The code is simple.
+-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+-Here's the code for the last row of images above:
+-
+-{% raw %}
+-
+-```html
+-<div class="row justify-content-sm-center">
+-  <div class="col-sm-8 mt-3 mt-md-0">
+-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-  </div>
+-  <div class="col-sm-4 mt-3 mt-md-0">
+-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-  </div>
+-</div>
+-```
+-
+-{% endraw %}
+diff --git a/_projects/8_project.md b/_projects/8_project.md
+index 06635d4..186dd15 100644
+--- a/_projects/8_project.md
++++ b/_projects/8_project.md
+@@ -3,82 +3,10 @@ layout: page
+ title: Haptic Feedback Robotic Gripper
+ description: Designed a pressure-sensitive robotic gripper capable of classifying soft and hard materials using force sensors and Arduino-based feedback control. Implemented signal acquisition and threshold calibration to dynamically adjust grip strength, improving precision handling in remote sensing and robotics applications.
+ image: assets/img/arm.jpeg
+-importance: 11
++importance: 13
+ category: embedded
+ giscus_comments: true
+ year: 2023
+ img_side: right
+ img_size: 360
+ ---
+-
+-Every project has a beautiful feature showcase page.
+-It's easy to include images in a flexible 3-column grid format.
+-Make your photos 1/3, 2/3, or full width.
+-
+-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+-
+-    ---
+-    layout: page
+-    title: project
+-    description: a project with a background image
+-    img: /assets/img/12.jpg
+-    ---
+-
+-<div class="row">
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-</div>
+-<div class="caption">
+-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+-</div>
+-<div class="row">
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-</div>
+-<div class="caption">
+-    This image can also have a caption. It's like magic.
+-</div>
+-
+-You can also put regular text between your rows of images.
+-Say you wanted to write a little bit about your project before you posted the rest of the images.
+-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+-
+-<div class="row justify-content-sm-center">
+-    <div class="col-sm-8 mt-3 mt-md-0">
+-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm-4 mt-3 mt-md-0">
+-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-</div>
+-<div class="caption">
+-    You can also have artistically styled 2/3 + 1/3 images, like these.
+-</div>
+-
+-The code is simple.
+-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+-Here's the code for the last row of images above:
+-
+-{% raw %}
+-
+-```html
+-<div class="row justify-content-sm-center">
+-  <div class="col-sm-8 mt-3 mt-md-0">
+-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-  </div>
+-  <div class="col-sm-4 mt-3 mt-md-0">
+-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-  </div>
+-</div>
+-```
+-
+-{% endraw %}
+diff --git a/_projects/9_project.md b/_projects/9_project.md
+index b600440..184cff2 100644
+--- a/_projects/9_project.md
++++ b/_projects/9_project.md
+@@ -1,83 +1,11 @@
+ ---
+ layout: page
+ title: Virtual Reality Biofeedback for Stress and Cardiac Response
+-description: Integrated real-time heart-rate sensing with Unity and designed custom VR environments visualizing live biofeedback for stress and cardiac research at Santa Clara University’s BioInnovation Lab collab.
++description: Integrated real-time heart-rate sensing with Unity and designed custom VR environments visualizing live biofeedback for stress and cardiac research, in collaboration with Santa Clara University's BioInnovation Lab.
+ image: assets/img/vr.png
+-importance: 8
++importance: 11
+ category: embedded
+ year: 2023
+ img_side: left
+ img_size: 400
+ ---
+-
+-Every project has a beautiful feature showcase page.
+-It's easy to include images in a flexible 3-column grid format.
+-Make your photos 1/3, 2/3, or full width.
+-
+-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+-
+-    ---
+-    layout: page
+-    title: project
+-    description: a project with a background image
+-    img: /assets/img/12.jpg
+-    ---
+-
+-<div class="row">
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-</div>
+-<div class="caption">
+-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+-</div>
+-<div class="row">
+-    <div class="col-sm mt-3 mt-md-0">
+-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-</div>
+-<div class="caption">
+-    This image can also have a caption. It's like magic.
+-</div>
+-
+-You can also put regular text between your rows of images.
+-Say you wanted to write a little bit about your project before you posted the rest of the images.
+-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+-
+-<div class="row justify-content-sm-center">
+-    <div class="col-sm-8 mt-3 mt-md-0">
+-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-    <div class="col-sm-4 mt-3 mt-md-0">
+-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-    </div>
+-</div>
+-<div class="caption">
+-    You can also have artistically styled 2/3 + 1/3 images, like these.
+-</div>
+-
+-The code is simple.
+-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+-Here's the code for the last row of images above:
+-
+-{% raw %}
+-
+-```html
+-<div class="row justify-content-sm-center">
+-  <div class="col-sm-8 mt-3 mt-md-0">
+-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-  </div>
+-  <div class="col-sm-4 mt-3 mt-md-0">
+-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+-  </div>
+-</div>
+-```
+-
+-{% endraw %}

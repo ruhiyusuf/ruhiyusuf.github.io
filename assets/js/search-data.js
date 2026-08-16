@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
+  },{id: "nav-publications",
+          title: "publications",
+          description: "list of publications",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
           title: "projects",
           description: "A selection of research and engineering projects.",
           section: "Navigation",
@@ -53,6 +60,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
+            },},{id: "projects-laser-characterization-and-control-lightmatter",
+          title: 'Laser Characterization and Control — Lightmatter',
+          description: "Summer 2026 Embedded Laser Intern at Lightmatter. Worked on automated characterization and control-parameter optimization for a multi-wavelength laser system used in optical interconnects for AI infrastructure, including experimental data pipelines and controller performance evaluation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/0_project/";
             },},{id: "projects-dilution-refrigerator-ribbon-structure-simulation",
           title: 'Dilution Refrigerator Ribbon Structure Simulation',
           description: "Simulated a ribbon-supported mounting structure for dilution refrigerator experiments to study vibration sensitivity and thermal performance under cryogenic conditions. Used COMSOL to evaluate frequency-domain response and heat transport, identifying design trade-offs in ribbon geometry and thermal anchoring (e.g., copper braids) for improved mechanical stability and efficient cooling. This work informs the integration of optomechanical components into cryogenic quantum systems.",
@@ -95,7 +107,7 @@ ninja.data = [{
               window.location.href = "/projects/5_project/";
             },},{id: "projects-driver-camera-and-retroreflective-vision-jetson-nano",
           title: 'Driver Camera and Retroreflective Vision (Jetson Nano)',
-          description: "Developed a C++ and Gstreamer-based dual-camera vision system with retroreflective target detection for driver assistance.",
+          description: "Developed a C++ and GStreamer-based dual-camera vision system with retroreflective target detection for driver assistance.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-chesscam-real-world-chess-ai-system",
@@ -110,7 +122,7 @@ ninja.data = [{
               window.location.href = "/projects/8_project/";
             },},{id: "projects-virtual-reality-biofeedback-for-stress-and-cardiac-response",
           title: 'Virtual Reality Biofeedback for Stress and Cardiac Response',
-          description: "Integrated real-time heart-rate sensing with Unity and designed custom VR environments visualizing live biofeedback for stress and cardiac research at Santa Clara University’s BioInnovation Lab collab.",
+          description: "Integrated real-time heart-rate sensing with Unity and designed custom VR environments visualizing live biofeedback for stress and cardiac research, in collaboration with Santa Clara University&#39;s BioInnovation Lab.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
