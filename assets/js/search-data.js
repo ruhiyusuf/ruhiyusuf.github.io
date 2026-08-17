@@ -61,25 +61,30 @@ ninja.data = [{
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
             },},{id: "projects-laser-characterization-and-control-lightmatter",
-          title: 'Laser Characterization and Control — Lightmatter',
+          title: 'Laser Characterization and Control, Lightmatter',
           description: "Summer 2026 Embedded Laser Intern at Lightmatter. Worked on automated characterization and control-parameter optimization for a multi-wavelength laser system used in optical interconnects for AI infrastructure, including experimental data pipelines and controller performance evaluation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/0_project/";
-            },},{id: "projects-dilution-refrigerator-ribbon-structure-simulation",
-          title: 'Dilution Refrigerator Ribbon Structure Simulation',
-          description: "Simulated a ribbon-supported mounting structure for dilution refrigerator experiments to study vibration sensitivity and thermal performance under cryogenic conditions. Used COMSOL to evaluate frequency-domain response and heat transport, identifying design trade-offs in ribbon geometry and thermal anchoring (e.g., copper braids) for improved mechanical stability and efficient cooling. This work informs the integration of optomechanical components into cryogenic quantum systems.",
+            },},{id: "projects-cryogenic-optomechanical-mount-design-amp-integration",
+          title: 'Cryogenic Optomechanical Mount Design &amp;amp; Integration',
+          description: "Collaboratively designed and simulated a ribbon-supported mounting structure for optomechanical components inside a dilution refrigerator, evaluating vibration sensitivity and thermal performance under cryogenic conditions with COMSOL and SolidWorks, and identifying design trade-offs in ribbon geometry and thermal anchoring (e.g., copper braids) for mechanical stability and efficient cooling. Coordinated with an overseas manufacturer to fabricate the part, which I will be integrating into the fridge.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
-            },},{id: "projects-automated-vna-control-and-cryogenic-data-logging",
-          title: 'Automated VNA Control and Cryogenic Data Logging',
+            },},{id: "projects-cryogenic-measurement-automation-amp-vna-control",
+          title: 'Cryogenic Measurement Automation &amp;amp; VNA Control',
           description: "Developed the backend for an automated VNA measurement system for cryogenic experiments, including sweep control, instrument communication, file handling, and dataset logging. Integrated Bluefors API polling to pair S-parameter measurements with temperature and pressure data during extended experimental runs.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
             },},{id: "projects-integrated-photonics-device-characterization",
           title: 'Integrated Photonics Device Characterization',
-          description: "Performed classical characterization of silicon nitride photonic integrated circuits, including fiber-to-chip coupling, polarization optimization, and resonance measurements. Worked with bidirectional pumping setups, EDFAs, and polarization controllers to configure and stabilize optical experiments. Extracted device parameters through resonance fitting and spectral analysis, and explored nonlinear processes such as second-harmonic generation (SHG) to understand device behavior.",
+          description: "Performed classical characterization of silicon nitride photonic integrated circuits, including fiber-to-chip coupling, polarization optimization, and resonance-alignment and detuning scans. Worked with bidirectional pumping setups, EDFAs, and polarization controllers to configure and stabilize optical experiments, extracting quality factors and isolating TE/TM mode structure through resonance fitting and spectral analysis, and exploring nonlinear processes including second-harmonic generation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_project/";
+            },},{id: "projects-pipelined-processor-amp-compute-in-memory-sram",
+          title: 'Pipelined Processor &amp;amp; Compute-in-Memory SRAM',
+          description: "Collaborated on the design and physical implementation of a 2-stage pipelined processor in a TSMC process. Worked on block-level datapath and top-level layout, including custom floorplanning and routing, and achieved DRC/LVS-clean chip-level integration.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13_project/";
             },},{id: "projects-zero-knowledge-proof-for-image-authentication",
           title: 'Zero-Knowledge Proof for Image Authentication',
           description: "Built a Zero-Knowledge Proof-based image authentication system to verify that photo transformations (cropping, redaction) are valid without revealing the original image. Implemented ZK-SNARK circuits in Circom to encode image transformations as mathematical constraints, enabling cryptographic proof generation and verification. Developed as part of Carnegie Mellon&#39;s OurCS 2024 conference, targeting applications in photojournalism, forensic evidence, and AI-generated image detection.",
@@ -92,7 +97,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-balanced-homodyne-photodetector-pcb",
           title: 'Balanced Homodyne Photodetector PCB',
-          description: "Designed and fabricated a low-noise balanced photodetector for homodyne detection in quantum optics experiments, focusing on analog circuit design, PCB layout, and optical testing.",
+          description: "Led the design, LTSpice simulation, EasyEDA layout, assembly, and experimental validation of a low-noise balanced photodetector for homodyne detection in quantum optics experiments. Built a free-space interferometer to characterize noise and bandwidth, achieving signal-to-noise ratios of approximately 25 dB and 12 dB for the high- and low-gain detectors, respectively, at a fabrication cost of under $20 per detector compared to roughly $2,000 for a commercial equivalent.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-liquid-nitrogen-monitoring-system-esp32",
@@ -112,7 +117,7 @@ ninja.data = [{
               window.location.href = "/projects/6_project/";
             },},{id: "projects-chesscam-real-world-chess-ai-system",
           title: 'ChessCam - Real-World Chess AI System',
-          description: "Built a computer vision system to recognize physical chessboards and recommend moves using trained ML models.",
+          description: "Collaboratively built a computer vision system to recognize physical chessboards and recommend moves using trained ML models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-haptic-feedback-robotic-gripper",
@@ -122,7 +127,7 @@ ninja.data = [{
               window.location.href = "/projects/8_project/";
             },},{id: "projects-virtual-reality-biofeedback-for-stress-and-cardiac-response",
           title: 'Virtual Reality Biofeedback for Stress and Cardiac Response',
-          description: "Integrated real-time heart-rate sensing with Unity and designed custom VR environments visualizing live biofeedback for stress and cardiac research, in collaboration with Santa Clara University&#39;s BioInnovation Lab.",
+          description: "Collaboratively integrated real-time heart-rate sensing with Unity and designed custom VR environments visualizing live biofeedback for stress and cardiac research, in collaboration with Santa Clara University&#39;s BioInnovation Lab.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
