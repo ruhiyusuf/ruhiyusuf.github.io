@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://ece.engin.umich.edu/'>EE @ UMich</a> · Integrated Photonics · Experimental Optical Systems · Lightmatter '26
+subtitle: <a href='https://ece.engin.umich.edu/'>EE @ UMich</a> · Integrated Photonics · Photonic Devices · Lightmatter '26
 
 profile:
   align: right
@@ -25,15 +25,13 @@ latest_posts:
 
 I am an undergraduate researcher at the University of Michigan working across integrated photonics, nonlinear optics, and experimental quantum photonics in Prof. Zheshen Zhang's <a href='https://quantumlab.engin.umich.edu/'>Quantum Engineering Lab</a>.
 
-My research focuses on the characterization of silicon nitride photonic integrated circuits and the generation and stabilization of dissipative Kerr solitons in microring resonators, supported by custom FPGA control systems, low-noise photodetectors, and cryogenic instrumentation I've built for these experiments.
+My research has focused on silicon nitride photonic integrated circuits, including device characterization, nonlinear optical measurements, and the generation and stabilization of dissipative Kerr solitons in microring resonators. I have also worked on experimental hardware for quantum optics and cryogenic measurements, spanning low-noise photodetector design, optical instrumentation, and mechanical and thermal design for dilution-refrigerator experiments.
 
-My work has contributed to a co-authored publication in <i>Optics Letters</i> and two conference papers at <a href='https://cleoconference.org/'>CLEO 2026</a>, including an oral presentation on wafer-scale Si₃N₄ photonic integrated circuits, and a poster at NCUR 2025. In summer 2025, my proposal on control and detector units for quantum photonics was selected for the Michigan Undergraduate Research in Quantum (MURiQ) program.
+My work has contributed to a co-authored publication in <i>Optics Letters</i> and two conference papers at <a href='https://cleoconference.org/'>CLEO 2026</a>, including an oral presentation on wafer-scale Si₃N₄ photonic integrated circuits. I also presented my undergraduate research at NCUR 2025 and was selected for Michigan's Undergraduate Research in Quantum (MURiQ) program.
 
-I am broadly interested in the physics and engineering of photonic devices, from device characterization to the control systems that make them useful in real platforms for communication, sensing, and computation. This summer, I am completing an internship as an Embedded Laser Intern at <a href='https://lightmatter.co/'>Lightmatter</a>, working on automated characterization and control-parameter optimization for a multi-wavelength laser system used in optical interconnects for AI infrastructure.
+This summer, I joined <a href='https://lightmatter.co/'>Lightmatter</a> as an Embedded Laser Intern, where I am working on automated characterization of multi-wavelength laser systems for optical interconnects. The experience has expanded my interest in how photonic devices interface with electronics, instrumentation, and computing systems.
 
-I plan to pursue a PhD in integrated photonics and photonic device physics, with an interest in quantum photonic systems.
-
-**Tools:** analog & RF circuit design · PCB layout · FPGA (Red Pitaya) · embedded software · Python · COMSOL (thermal/mechanical) · cryogenic instrumentation · optical characterization
+I am broadly interested in integrated photonics and photonic device physics, particularly where device-level physics connects to larger optical and electronic systems. I plan to pursue a PhD in this area, with interests spanning optical interconnects, nonlinear and quantum photonics, and emerging photonic hardware.
 
 ---
 
