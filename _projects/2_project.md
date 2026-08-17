@@ -8,5 +8,5 @@ img_side: right
 year: 2025
 category: software
 giscus_comments: true
-img_size: 360
+img_size: 430
 ---

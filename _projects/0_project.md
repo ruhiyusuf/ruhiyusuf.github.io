@@ -7,7 +7,7 @@ importance: 1
 img_side: left
 year: 2026
 category: research
-img_size: 320
+img_size: 380
 short: Lightmatter
 tags: [Photonics, Control Systems]
 ---

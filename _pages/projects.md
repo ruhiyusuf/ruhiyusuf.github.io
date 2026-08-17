@@ -64,7 +64,13 @@ display_categories: [research, hardware, software]
   margin-bottom: 2.5rem;
 }
 .proj-item.image-right {
-  flex-direction: row-reverse;
+  flex-direction: row;
+}
+.proj-item.image-right .proj-thumb-row {
+  order: 2;
+}
+.proj-item.image-right .proj-info {
+  order: 1;
 }
 .proj-item.image-left {
   flex-direction: row;
@@ -92,7 +98,7 @@ display_categories: [research, hardware, software]
   object-fit: cover;
 }
 .proj-info {
-  max-width: 650px;
+  max-width: 420px;
   flex: 1;
 }
 .proj-title {

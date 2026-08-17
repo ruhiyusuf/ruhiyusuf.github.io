@@ -8,5 +8,5 @@ img_side: right
 category: software
 related_publications: true
 year: 2023
-img_size: 200
+img_size: 240
 ---

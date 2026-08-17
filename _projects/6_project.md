@@ -7,5 +7,5 @@ importance: 13
 img_side: left
 category: hardware
 year: 2023
-img_size: 360
+img_size: 430
 ---

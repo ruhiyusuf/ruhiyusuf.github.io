@@ -7,7 +7,7 @@ importance: 7
 img_side: left
 year: 2026
 category: hardware
-img_size: 300
+img_size: 360
 short: VLSI
 tags: [VLSI, Circuits]
 ---

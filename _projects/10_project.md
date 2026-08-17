@@ -8,5 +8,5 @@ importance: 5
 img_side: left
 year: 2026
 category: research
-img_size: 220
+img_size: 260
 ---

@@ -8,5 +8,5 @@ img_side: right
 category: hardware
 giscus_comments: true
 year: 2023
-img_size: 360
+img_size: 430
 ---

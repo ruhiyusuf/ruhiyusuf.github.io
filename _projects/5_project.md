@@ -7,5 +7,5 @@ importance: 3
 img_side: left
 year: 2025
 category: research
-img_size: 380
+img_size: 460
 ---

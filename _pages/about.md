@@ -40,7 +40,7 @@ I plan to pursue a PhD in integrated photonics and photonic device physics, with
 ## selected projects
 
 <div class="selected-projects-grid">
-  {% assign featured_projects = site.projects | where_exp: "p", "p.importance <= 2" | sort: "importance" %}
+  {% assign featured_projects = site.projects | where_exp: "p", "p.importance <= 3" | sort: "importance" %}
   {% for project in featured_projects %}
     <a href="{{ '/projects/' | relative_url }}" class="project-card">
       {% if project.image %}

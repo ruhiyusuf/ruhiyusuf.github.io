@@ -8,5 +8,5 @@ year: 2025
 importance: 11
 img_side: left
 category: hardware
-img_size: 240
+img_size: 290
 ---
