@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Integrated Photonics Device Characterization
-description: Performed classical characterization of silicon nitride photonic integrated circuits, including fiber-to-chip coupling, polarization optimization, and resonance measurements. Worked with bidirectional pumping setups, EDFAs, and polarization controllers to configure and stabilize optical experiments. Extracted device parameters through resonance fitting and spectral analysis, and explored nonlinear processes such as second-harmonic generation (SHG) to understand device behavior.
+description: Performed classical characterization of silicon nitride photonic integrated circuits, including fiber-to-chip coupling, polarization optimization, and resonance-alignment and detuning scans. Worked with bidirectional pumping setups, EDFAs, and polarization controllers to configure and stabilize optical experiments, extracting quality factors and isolating TE/TM mode structure through resonance fitting and spectral analysis, and exploring nonlinear processes including second-harmonic generation.
 image: /assets/img/pic_setup.jpeg
 importance: 2
 year: 2026

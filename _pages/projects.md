@@ -5,7 +5,7 @@ permalink: /projects/
 description: A selection of research and engineering projects.
 nav: true
 nav_order: 3
-display_categories: [research, hardware, embedded, software]
+display_categories: [research, hardware, software]
 ---
 
 <div class="projects">
@@ -44,19 +44,6 @@ display_categories: [research, hardware, embedded, software]
 .projects {
   margin-top: 2rem;
 }
-/* .year-section {
-  position: relative;
-  margin-bottom: 3rem;
-}
-.year {
-  position: absolute;
-  right: 0;
-  top: 0;
-  font-size: 2rem;
-  font-weight: 200;
-  color: var(--global-divider-color);
-  margin: 0;
-} */
 .year-section {
   margin-bottom: 3rem;
 }
