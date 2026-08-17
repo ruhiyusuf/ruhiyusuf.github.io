@@ -6,7 +6,7 @@ image: /assets/img/dewar_setup.png
 image2: /assets/img/dewar.png
 year: 2025
 importance: 11
-category: hardware
 img_side: left
+category: hardware
 img_size: 240
 ---

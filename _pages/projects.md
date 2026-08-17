@@ -15,7 +15,7 @@ display_categories: [research, hardware, software]
 {% for project in sorted_projects %}
   <div class="proj-item {% if project.img_side == 'right' %}image-right{% elsif project.img_side == 'left' %}image-left{% endif %}">
     {% if project.image %}
-      <div class="proj-thumb-row">
+      <div class="proj-thumb-row{% if project.img_stack %} stacked{% endif %}">
         <img
           src="{{ project.image | relative_url }}"
           alt="{{ project.title }}"
@@ -81,6 +81,9 @@ display_categories: [research, hardware, software]
   display: flex;
   gap: 0.75rem;
   flex-shrink: 0;
+}
+.proj-thumb-row.stacked {
+  flex-direction: column;
 }
 .proj-thumb-row img {
   height: auto;

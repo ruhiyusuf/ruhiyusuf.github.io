@@ -5,8 +5,8 @@ description: Collaboratively designed and simulated a ribbon-supported mounting 
 image: /assets/img/cryo_freq.png
 image2: /assets/img/cryo_cad.png
 importance: 5
+img_side: left
 year: 2026
 category: research
-img_side: right
 img_size: 220
 ---

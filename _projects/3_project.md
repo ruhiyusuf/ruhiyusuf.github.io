@@ -6,8 +6,8 @@ image: /assets/img/photodetector_closeup.png
 image2: /assets/img/photodetector_setup.png
 year: 2025
 importance: 6
-category: research
 img_side: right
+category: research
 img_size: 240
 ---
 

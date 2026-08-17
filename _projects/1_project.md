@@ -5,8 +5,9 @@ description: Built a Zero-Knowledge Proof-based image authentication system to v
 image: /assets/img/zkp_overview.png
 image2: /assets/img/zkp_poster.png
 importance: 9
+img_side: left
 year: 2024
 category: software
-img_side: right
-img_size: 300
+img_size: 260
+img_stack: true
 ---
