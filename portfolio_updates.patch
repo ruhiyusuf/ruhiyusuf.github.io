@@ -1,144 +1,441 @@
-diff --git a/_includes/coursework.liquid b/_includes/coursework.liquid
-index fa4cb1d..5c20571 100644
---- a/_includes/coursework.liquid
-+++ b/_includes/coursework.liquid
-@@ -1,77 +1,65 @@
--<h2>selected coursework</h2>
-+<h2>selected coursework</h2>
- 
--<div class="course-grid">
--  <div class="course-col">
--    <p class="course-heading">Electrical Engineering</p>
--    <ul>
--      <li>Digital Integrated Circuits</li>
--      <li>VLSI Design I</li>
--      <li>Signals and Systems</li>
--    </ul>
+diff --git a/_includes/volunteering.liquid b/_includes/volunteering.liquid
+index b8fba9d..d7fc3ef 100644
+--- a/_includes/volunteering.liquid
++++ b/_includes/volunteering.liquid
+@@ -1,57 +1,55 @@
+-<h2>volunteering</h2>
+-
+-<div class="fun-grid">
+-  <!-- Hackathon 1
+-  <div class="fun-card">
+-    <img src="assets/img/hackathon1.jpg" alt="Hackathon" class="fun-img">
+-    <div class="fun-caption">Helping run student hackathons</div>
+-  </div> -->
+-
+-  <!-- Hot Chips Volunteering -->
+-  <div class="fun-card">
+-    <img src="assets/img/hc.jpeg" alt="Hot Chips" class="fun-img">
+-    <div class="fun-caption">Volunteering at IEEE Hot Chips</div>
 -  </div>
--  <div class="course-col">
--    <p class="course-heading">Photonics & Quantum</p>
--    <ul>
--      <li>Principles of Optics</li>
--      <li>Electromagnetism</li>
--      <li>Quantum Information Technology</li>
--    </ul>
+-
+-  <!-- Quantum Hackathon -->
+-  <div class="fun-card">
+-    <img src="assets/img/qhack.jpeg" alt="Quantum Hackathon" class="fun-img">
+-    <div class="fun-caption">Organizing & mentoring at quantum hackathons</div>
 -  </div>
--  <div class="course-col">
--    <p class="course-heading">Math & CS</p>
--    <ul>
--      <li>Multivariable Calculus</li>
--      <li>Differential Equations</li>
--      <li>Linear Algebra</li>
--      <li>Programming & Data Structures</li>
--    </ul>
--  </div>
--  <div class="course-col">
--    <p class="course-heading">In Progress</p>
--    <ul>
--      <li>Optical Waves in Crystals</li>
--      <li>Advanced Lasers & Optics Lab</li>
--      <li>Micro/Nano Fabrication</li>
--    </ul>
--  </div>
--  <div class="course-col">
--    <p class="course-heading">Planned</p>
--    <ul>
--      <li>Classical Optics</li>
--      <li>VLSI Design II</li>
--      <li>VLSI Tapeout Lab</li>
--    </ul>
--  </div>
+-
+-  <!-- Side Projects
+-  <div class="fun-card">
+-    <img src="assets/img/sideproject.jpg" alt="Side Projects" class="fun-img">
+-    <div class="fun-caption">Random side projects + fun builds</div>
+-  </div> -->
 -</div>
-+<div class="course-grid">
-+  <div class="course-col">
-+    <p class="course-heading">Photonics & Devices</p>
-+    <ul>
-+      <li>Principles of Optics</li>
-+      <li>Electromagnetism</li>
-+      <li>Optical Waves in Crystals <span class="course-tag">In Progress</span></li>
-+      <li>Advanced Lasers & Optics Lab <span class="course-tag">In Progress</span></li>
-+      <li>Micro/Nano Fabrication <span class="course-tag">In Progress</span></li>
-+      <li>Classical Optics <span class="course-tag">Planned</span></li>
-+    </ul>
-+  </div>
-+  <div class="course-col">
-+    <p class="course-heading">Circuits & Hardware</p>
-+    <ul>
-+      <li>Digital Integrated Circuits</li>
-+      <li>VLSI Design I</li>
-+      <li>VLSI Design II <span class="course-tag">Planned</span></li>
-+      <li>VLSI Tapeout Lab <span class="course-tag">Planned</span></li>
-+    </ul>
-+  </div>
-+</div>
- 
+-
 -<style>
--.course-grid {
+-.fun-grid {
 -  display: grid;
--  grid-template-columns: repeat(5, 1fr);
--  gap: 1.5rem;
--  margin-top: 1rem;
--  margin-bottom: 2rem;
+-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+-  gap: 1.2rem;
+-  margin-top: 1.2rem;
 -}
--.course-heading {
+-
+-.fun-card {
+-  text-align: center;
+-}
+-
+-.fun-img {
+-  width: 100%;
+-  height: 140px;
+-  object-fit: cover;
+-  border-radius: 10px;
+-  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+-}
+-
+-.fun-caption {
+-  margin-top: 0.5rem;
 -  font-size: 0.9rem;
--  font-weight: 600;
--  letter-spacing: 0.08em;
--  text-transform: uppercase;
--  color: var(--global-theme-color);
--  margin-bottom: 0.5rem;
--}
--.course-col ul {
--  padding-left: 1rem;
--  margin: 0;
--}
--.course-col li {
--  font-size: 0.88rem;
+-  font-weight: 500;
 -  color: var(--global-text-color);
--  padding: 0.15rem 0;
 -}
--@media (max-width: 600px) {
--  .course-grid {
--    grid-template-columns: repeat(2, 1fr);
--  }
--}
++<h2>volunteering</h2>
++
++<div class="fun-grid">
++  <!-- Hackathon 1
++  <div class="fun-card">
++    <img src="assets/img/hackathon1.jpg" alt="Hackathon" class="fun-img">
++    <div class="fun-caption">Helping run student hackathons</div>
++  </div> -->
++
++  <!-- Hot Chips Volunteering -->
++  <div class="fun-card">
++    <img src="assets/img/hc.jpeg" alt="Hot Chips" class="fun-img">
++    <div class="fun-caption">Volunteering at IEEE Hot Chips</div>
++  </div>
++
++  <!-- Quantum Hackathon -->
++  <div class="fun-card">
++    <img src="assets/img/qhack.jpeg" alt="Quantum Hackathon" class="fun-img">
++    <div class="fun-caption">Organizing & mentoring at quantum hackathons</div>
++  </div>
++
++  <!-- Side Projects
++  <div class="fun-card">
++    <img src="assets/img/sideproject.jpg" alt="Side Projects" class="fun-img">
++    <div class="fun-caption">Random side projects + fun builds</div>
++  </div> -->
++</div>
++
 +<style>
-+.course-grid {
++.fun-grid {
 +  display: grid;
-+  grid-template-columns: repeat(2, 1fr);
-+  gap: 2.5rem;
-+  margin-top: 1rem;
-+  margin-bottom: 2rem;
++  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
++  gap: 1.2rem;
++  margin-top: 1.2rem;
 +}
-+.course-heading {
++
++.fun-card {
++  text-align: center;
++}
++
++.fun-img {
++  width: 100%;
++  height: 140px;
++  object-fit: cover;
++  border-radius: 10px;
++  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
++}
++
++.fun-caption {
++  margin-top: 0.5rem;
 +  font-size: 0.9rem;
-+  font-weight: 600;
-+  letter-spacing: 0.08em;
-+  text-transform: uppercase;
-+  color: var(--global-theme-color);
-+  margin-bottom: 0.5rem;
-+}
-+.course-col ul {
-+  padding-left: 1rem;
-+  margin: 0;
-+}
-+.course-col li {
-+  font-size: 0.88rem;
-+  color: var(--global-text-color);
-+  padding: 0.15rem 0;
-+}
-+.course-tag {
-+  font-size: 0.72rem;
 +  font-weight: 500;
-+  letter-spacing: 0.04em;
-+  text-transform: uppercase;
-+  color: var(--global-divider-color);
-+  margin-left: 0.35rem;
-+}
-+@media (max-width: 600px) {
-+  .course-grid {
-+    grid-template-columns: 1fr;
-+    gap: 1.5rem;
-+  }
++  color: var(--global-text-color);
 +}
  </style>
+-
+----
+diff --git a/_pages/projects.md b/_pages/projects.md
+index 1792c11..b5b72d9 100644
+--- a/_pages/projects.md
++++ b/_pages/projects.md
+@@ -15,7 +15,7 @@ display_categories: [research, hardware, software]
+ {% for project in sorted_projects %}
+   <div class="proj-item {% if project.img_side == 'right' %}image-right{% elsif project.img_side == 'left' %}image-left{% endif %}">
+     {% if project.image %}
+-      <div class="proj-thumb-row">
++      <div class="proj-thumb-row{% if project.img_stack %} stacked{% endif %}">
+         <img
+           src="{{ project.image | relative_url }}"
+           alt="{{ project.title }}"
+@@ -82,6 +82,9 @@ display_categories: [research, hardware, software]
+   gap: 0.75rem;
+   flex-shrink: 0;
+ }
++.proj-thumb-row.stacked {
++  flex-direction: column;
++}
+ .proj-thumb-row img {
+   height: auto;
+   border-radius: 6px;
+diff --git a/_projects/0_project.md b/_projects/0_project.md
+index 113db87..371fd3e 100644
+--- a/_projects/0_project.md
++++ b/_projects/0_project.md
+@@ -4,9 +4,9 @@ title: "Laser Characterization and Control, Lightmatter"
+ description: "Summer 2026 Embedded Laser Intern at Lightmatter. Worked on automated characterization and control-parameter optimization for a multi-wavelength laser system used in optical interconnects for AI infrastructure, including experimental data pipelines and controller performance evaluation."
+ image: /assets/img/lightmatter_guide.png
+ importance: 1
++img_side: left
+ year: 2026
+ category: research
+-img_side: right
+ img_size: 320
+ short: Lightmatter
+ tags: [Photonics, Control Systems]
+diff --git a/_projects/10_project.md b/_projects/10_project.md
+index 98a3c68..7f3281b 100644
+--- a/_projects/10_project.md
++++ b/_projects/10_project.md
+@@ -5,8 +5,8 @@ description: Collaboratively designed and simulated a ribbon-supported mounting
+ image: /assets/img/cryo_freq.png
+ image2: /assets/img/cryo_cad.png
+ importance: 5
++img_side: left
+ year: 2026
+ category: research
+-img_side: right
+ img_size: 220
+ ---
+\ No newline at end of file
+diff --git a/_projects/11_project.md b/_projects/11_project.md
+index 18436bc..a327f44 100644
+--- a/_projects/11_project.md
++++ b/_projects/11_project.md
+@@ -4,9 +4,9 @@ title: Cryogenic Measurement Automation & VNA Control
+ description: Developed the backend for an automated VNA measurement system for cryogenic experiments, including sweep control, instrument communication, file handling, and dataset logging. Integrated Bluefors API polling to pair S-parameter measurements with temperature and pressure data during extended experimental runs.
+ image: /assets/img/vna_gui.png
+ importance: 4
++img_side: right
+ year: 2026
+ category: research
+-img_side: left
+ img_size: 360
+ short: VNA
+ tags: [Measurement, Cryogenics]
+diff --git a/_projects/12_project.md b/_projects/12_project.md
+index 0f178f4..1b9f831 100644
+--- a/_projects/12_project.md
++++ b/_projects/12_project.md
+@@ -4,9 +4,9 @@ title: Integrated Photonics Device Characterization
+ description: Performed classical characterization of silicon nitride photonic integrated circuits, including fiber-to-chip coupling, polarization optimization, and resonance-alignment and detuning scans. Worked with bidirectional pumping setups, EDFAs, and polarization controllers to configure and stabilize optical experiments, extracting quality factors and isolating TE/TM mode structure through resonance fitting and spectral analysis, and exploring nonlinear processes including second-harmonic generation.
+ image: /assets/img/pic_setup.jpeg
+ importance: 2
++img_side: right
+ year: 2026
+ category: research
+-img_side: right
+ img_size: 360
+ short: PIC
+ tags: [Photonics, Measurement]
+diff --git a/_projects/13_project.md b/_projects/13_project.md
+index fbc6e53..249b88e 100644
+--- a/_projects/13_project.md
++++ b/_projects/13_project.md
+@@ -1,13 +1,13 @@
+----
+-layout: page
+-title: Pipelined Processor & Compute-in-Memory SRAM
+-description: Collaborated on the design and physical implementation of a 2-stage pipelined processor in a TSMC process. Worked on block-level datapath and top-level layout, including custom floorplanning and routing, and achieved DRC/LVS-clean chip-level integration.
+-image: /assets/img/vlsi_layout.png
+-importance: 7
+-year: 2026
+-category: hardware
+-img_side: left
+-img_size: 300
+-short: VLSI
+-tags: [VLSI, Circuits]
++---
++layout: page
++title: Pipelined Processor & Compute-in-Memory SRAM
++description: Collaborated on the design and physical implementation of a 2-stage pipelined processor in a TSMC process. Worked on block-level datapath and top-level layout, including custom floorplanning and routing, and achieved DRC/LVS-clean chip-level integration.
++image: /assets/img/vlsi_layout.png
++importance: 7
++img_side: left
++year: 2026
++category: hardware
++img_size: 300
++short: VLSI
++tags: [VLSI, Circuits]
+ ---
+diff --git a/_projects/1_project.md b/_projects/1_project.md
+index 8291513..80b3308 100644
+--- a/_projects/1_project.md
++++ b/_projects/1_project.md
+@@ -1,12 +1,13 @@
+----
+-layout: page
+-title: Zero-Knowledge Proof for Image Authentication
+-description: Built a Zero-Knowledge Proof-based image authentication system to verify that photo transformations (cropping, redaction) are valid without revealing the original image. Implemented ZK-SNARK circuits in Circom to encode image transformations as mathematical constraints, enabling cryptographic proof generation and verification. Developed as part of Carnegie Mellon's OurCS 2024 conference, targeting applications in photojournalism, forensic evidence, and AI-generated image detection.
+-image: /assets/img/zkp_overview.png
+-image2: /assets/img/zkp_poster.png
+-importance: 9
+-year: 2024
+-category: software
+-img_side: right
+-img_size: 300
++---
++layout: page
++title: Zero-Knowledge Proof for Image Authentication
++description: Built a Zero-Knowledge Proof-based image authentication system to verify that photo transformations (cropping, redaction) are valid without revealing the original image. Implemented ZK-SNARK circuits in Circom to encode image transformations as mathematical constraints, enabling cryptographic proof generation and verification. Developed as part of Carnegie Mellon's OurCS 2024 conference, targeting applications in photojournalism, forensic evidence, and AI-generated image detection.
++image: /assets/img/zkp_overview.png
++image2: /assets/img/zkp_poster.png
++importance: 9
++img_side: left
++year: 2024
++category: software
++img_size: 260
++img_stack: true
+ ---
+\ No newline at end of file
+diff --git a/_projects/2_project.md b/_projects/2_project.md
+index 7ccb601..64b7ff8 100644
+--- a/_projects/2_project.md
++++ b/_projects/2_project.md
+@@ -1,12 +1,12 @@
+----
+-layout: page
+-title: Quantum Autoencoders - Tutorial & Live Demo, IEEE ISIT 2025
+-description: Designed and delivered a 1-hour tutorial on quantum autoencoders at the IEEE ISIT 75th Anniversary Quantum Hackathon. Covered QAE architecture, variational circuit design, fidelity-based loss functions, and the Transverse Field Ising Model as a structured quantum data source. Closed with a live Qiskit implementation and demo. Built for an audience ranging from quantum beginners to practitioners. 
+-image: assets/img/qae.png
+-importance: 8
+-year: 2025
+-category: software
+-giscus_comments: true
+-img_side: left
+-img_size: 360
++---
++layout: page
++title: Quantum Autoencoders - Tutorial & Live Demo, IEEE ISIT 2025
++description: Designed and delivered a 1-hour tutorial on quantum autoencoders at the IEEE ISIT 75th Anniversary Quantum Hackathon. Covered QAE architecture, variational circuit design, fidelity-based loss functions, and the Transverse Field Ising Model as a structured quantum data source. Closed with a live Qiskit implementation and demo. Built for an audience ranging from quantum beginners to practitioners. 
++image: assets/img/qae.png
++importance: 8
++img_side: right
++year: 2025
++category: software
++giscus_comments: true
++img_size: 360
+ ---
+diff --git a/_projects/3_project.md b/_projects/3_project.md
+index 9f349f3..1f194a7 100644
+--- a/_projects/3_project.md
++++ b/_projects/3_project.md
+@@ -6,8 +6,8 @@ image: /assets/img/photodetector_closeup.png
+ image2: /assets/img/photodetector_setup.png
+ year: 2025
+ importance: 6
+-category: research
+ img_side: right
++category: research
+ img_size: 240
+ ---
+ 
+diff --git a/_projects/4_project.md b/_projects/4_project.md
+index 5da03cf..796080f 100644
+--- a/_projects/4_project.md
++++ b/_projects/4_project.md
+@@ -1,12 +1,12 @@
+----
+-layout: page
+-title: "Liquid Nitrogen Monitoring System (ESP32)"
+-description: "Developed an ESP32-based system to monitor liquid nitrogen levels using weight sensing. Implemented data logging and alert mechanisms to track cryogen usage and ensure reliable operation of lab systems."
+-image: /assets/img/dewar_setup.png
+-image2: /assets/img/dewar.png
+-year: 2025
+-importance: 11
+-category: hardware
+-img_side: left
+-img_size: 240
++---
++layout: page
++title: "Liquid Nitrogen Monitoring System (ESP32)"
++description: "Developed an ESP32-based system to monitor liquid nitrogen levels using weight sensing. Implemented data logging and alert mechanisms to track cryogen usage and ensure reliable operation of lab systems."
++image: /assets/img/dewar_setup.png
++image2: /assets/img/dewar.png
++year: 2025
++importance: 11
++img_side: left
++category: hardware
++img_size: 240
+ ---
+\ No newline at end of file
+diff --git a/_projects/5_project.md b/_projects/5_project.md
+index dd8be42..ddee76a 100644
+--- a/_projects/5_project.md
++++ b/_projects/5_project.md
+@@ -1,12 +1,11 @@
+----
+-layout: page
+-title: Enhancing Soliton Microcomb Stability with Custom Waveform Control
+-description: Developed a Red Pitaya–based waveform control system for pump-laser detuning in Si₃N₄ microring resonators. Implemented tuning strategies to reliably access and stabilize dissipative Kerr soliton states, enabling longer soliton steps and improved frequency comb stability.
+-image: /assets/img/soliton.png
+-img_side: right
+-importance: 3
+-year: 2025
+-category: research
+-img_side: left
+-img_size: 380
++---
++layout: page
++title: Enhancing Soliton Microcomb Stability with Custom Waveform Control
++description: Developed a Red Pitaya–based waveform control system for pump-laser detuning in Si₃N₄ microring resonators. Implemented tuning strategies to reliably access and stabilize dissipative Kerr soliton states, enabling longer soliton steps and improved frequency comb stability.
++image: /assets/img/soliton.png
++importance: 3
++img_side: left
++year: 2025
++category: research
++img_size: 380
+ ---
+\ No newline at end of file
+diff --git a/_projects/6_project.md b/_projects/6_project.md
+index eb510af..30c4daa 100644
+--- a/_projects/6_project.md
++++ b/_projects/6_project.md
+@@ -1,11 +1,11 @@
+----
+-layout: page
+-title: Driver Camera and Retroreflective Vision (Jetson Nano)
+-description: Developed a C++ and GStreamer-based dual-camera vision system with retroreflective target detection for driver assistance.
+-image: assets/img/nano.jpg
+-importance: 13
+-category: hardware
+-year: 2023
+-img_side: left
+-img_size: 360
++---
++layout: page
++title: Driver Camera and Retroreflective Vision (Jetson Nano)
++description: Developed a C++ and GStreamer-based dual-camera vision system with retroreflective target detection for driver assistance.
++image: assets/img/nano.jpg
++importance: 13
++img_side: left
++category: hardware
++year: 2023
++img_size: 360
+ ---
+diff --git a/_projects/7_project.md b/_projects/7_project.md
+index 381b46d..707f950 100644
+--- a/_projects/7_project.md
++++ b/_projects/7_project.md
+@@ -4,9 +4,9 @@ title: ChessCam - Real-World Chess AI System
+ description: Collaboratively built a computer vision system to recognize physical chessboards and recommend moves using trained ML models.
+ image: assets/img/chess.png
+ importance: 10
++img_side: right
+ category: software
+ related_publications: true
+ year: 2023
+-img_side: right
+ img_size: 200
+ ---
+diff --git a/_projects/8_project.md b/_projects/8_project.md
+index 91702e9..76ef843 100644
+--- a/_projects/8_project.md
++++ b/_projects/8_project.md
+@@ -1,12 +1,12 @@
+----
+-layout: page
+-title: Haptic Feedback Robotic Gripper
+-description: Designed a pressure-sensitive robotic gripper capable of classifying soft and hard materials using force sensors and Arduino-based feedback control. Implemented signal acquisition and threshold calibration to dynamically adjust grip strength, improving precision handling in remote sensing and robotics applications.
+-image: assets/img/arm.jpeg
+-importance: 14
+-category: hardware
+-giscus_comments: true
+-year: 2023
+-img_side: right
+-img_size: 360
++---
++layout: page
++title: Haptic Feedback Robotic Gripper
++description: Designed a pressure-sensitive robotic gripper capable of classifying soft and hard materials using force sensors and Arduino-based feedback control. Implemented signal acquisition and threshold calibration to dynamically adjust grip strength, improving precision handling in remote sensing and robotics applications.
++image: assets/img/arm.jpeg
++importance: 14
++img_side: right
++category: hardware
++giscus_comments: true
++year: 2023
++img_size: 360
+ ---
+diff --git a/_projects/9_project.md b/_projects/9_project.md
+index db3446a..5c43a2c 100644
+--- a/_projects/9_project.md
++++ b/_projects/9_project.md
+@@ -4,8 +4,8 @@ title: Virtual Reality Biofeedback for Stress and Cardiac Response
+ description: Collaboratively integrated real-time heart-rate sensing with Unity and designed custom VR environments visualizing live biofeedback for stress and cardiac research, in collaboration with Santa Clara University's BioInnovation Lab.
+ image: assets/img/vr.png
+ importance: 12
++img_side: right
+ category: hardware
+ year: 2023
+-img_side: left
+ img_size: 400
+ ---
